@@ -2,13 +2,13 @@ const PreloaderModule = () => {
   return (
     <>
       {/* preloader */}
-      <div className="art-preloader">
+      <div className='art-preloader'>
         {/* preloader content */}
-        <div className="art-preloader-content">
+        <div className='art-preloader-content'>
           {/* title */}
           <h4>Josue Acuna</h4>
           {/* progressbar */}
-          <div id="preloader" className="art-preloader-load"></div>
+          <div id='preloader' className='art-preloader-load'></div>
         </div>
         {/* preloader content end */}
       </div>

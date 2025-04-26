@@ -1,17 +1,17 @@
 import PaginatedBlog from '@components/PaginatedBlog';
 import Pagination from '@components/Pagination';
-import PartnersSection from "@components/sections/Partners";
+import PartnersSection from '@components/sections/Partners';
 
-import AppData from "@data/app.json";
+import AppData from '@data/app.json';
 
-import { getPaginatedPostsData } from "@library/posts";
+import { getPaginatedPostsData } from '@library/posts';
 
 export const metadata = {
   title: {
-		default: "Blog",
-	},
+    default: 'Blog',
+  },
   description: AppData.settings.siteDescription,
-}
+};
 
 async function Blog() {
   const postsData = await getAllPosts();
@@ -19,76 +19,61 @@ async function Blog() {
   return (
     <>
       {/* container */}
-      <div className="container-fluid">
-
+      <div className='container-fluid'>
         {/* row */}
-        <div className="row p-30-0">
-
+        <div className='row p-30-0'>
           {/* col */}
-          <div className="col-lg-12">
-
+          <div className='col-lg-12'>
             {/* section title */}
-            <div className="art-section-title">
+            <div className='art-section-title'>
               {/* title frame */}
-              <div className="art-title-frame">
+              <div className='art-title-frame'>
                 {/* title */}
                 <h4>Blog</h4>
               </div>
               {/* title frame end */}
             </div>
             {/* section title end */}
-
           </div>
           {/* col end */}
-          
-          <PaginatedBlog
-            items={postsData.posts}
-            columns={3}
-          />
 
+          <PaginatedBlog items={postsData.posts} columns={3} />
         </div>
         {/* row end */}
-
       </div>
       {/* container end */}
 
       {/* container */}
-      <div className="container-fluid">
-
+      <div className='container-fluid'>
         {/* row */}
-        <div className="row">
-
+        <div className='row'>
           {/* col */}
-          <div className="col-lg-12">
-
+          <div className='col-lg-12'>
             <Pagination
               currentPage={postsData.currentPage}
               totalItems={postsData.totalPosts}
               perPage={AppData.settings.perPage}
               renderPageLink={(page) => `/blog/page/${page}`}
             />
-
           </div>
           {/* col end */}
-
         </div>
         {/* row end */}
-
       </div>
       {/* container end */}
 
       <PartnersSection />
     </>
   );
-};
+}
 export default Blog;
 
 async function getAllPosts() {
-  const { posts, total } = getPaginatedPostsData( AppData.settings.perPage, 1 );
+  const { posts, total } = getPaginatedPostsData(AppData.settings.perPage, 1);
 
   return {
     posts: posts,
     totalPosts: total,
-    currentPage: 1
-  }
+    currentPage: 1,
+  };
 }

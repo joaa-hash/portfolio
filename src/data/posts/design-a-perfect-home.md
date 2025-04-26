@@ -2,14 +2,14 @@
 #preview
 title: 'Design a perfect home'
 date: '2022-04-02'
-image: "/img/blog/1.jpg"
+image: '/img/blog/1.jpg'
 categories:
-    - Urban
+  - Urban
 tags:
-    - Branding
-    - Design
-    - Development
-    - UI
+  - Branding
+  - Design
+  - Development
+  - UI
 author: Charlie Williams
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 ---

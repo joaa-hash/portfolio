@@ -2,12 +2,12 @@
 #preview
 title: 'Design with community in mind'
 date: '2022-02-02'
-image: "/img/blog/2.jpg"
+image: '/img/blog/2.jpg'
 categories:
-    - Technology
+  - Technology
 tags:
-    - Design
-    - UI
+  - Design
+  - UI
 author: Peter Stanbridge
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 ---

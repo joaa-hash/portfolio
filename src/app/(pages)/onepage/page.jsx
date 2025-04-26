@@ -1,30 +1,36 @@
-import React, { Suspense } from "react";
-import dynamic from "next/dynamic";
+import React, { Suspense } from 'react';
+import dynamic from 'next/dynamic';
 
-import AppData from "@data/app.json";
+import AppData from '@data/app.json';
 
-import { getSortedPostsData } from "@library/posts";
-import { getSortedProjectsData } from "@library/projects";
+import { getSortedPostsData } from '@library/posts';
+import { getSortedProjectsData } from '@library/projects';
 
-import HeroSection from "@components/sections/Hero";
-import CountersSection from "@components/sections/Counters";
-import ServicesSection from "@components/sections/Services";
-import PricingSection from "@components/sections/Pricing";
-import PartnersSection from "@components/sections/Partners";
-import HistorySection from "@components/sections/History";
-import ContactInfoSection from "@components/sections/ContactInfo";
-import ContactFormSection from "@components/sections/Contact";
+import HeroSection from '@components/sections/Hero';
+import CountersSection from '@components/sections/Counters';
+import ServicesSection from '@components/sections/Services';
+import PricingSection from '@components/sections/Pricing';
+import PartnersSection from '@components/sections/Partners';
+import HistorySection from '@components/sections/History';
+import ContactInfoSection from '@components/sections/ContactInfo';
+import ContactFormSection from '@components/sections/Contact';
 
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const LatestPostsSlider = dynamic( () => import("@components/sliders/LatestPosts"), { ssr: false } );
-const ProjectsMasonry = dynamic( () => import("@components/ProjectsMasonry"), { ssr: false } );
+const TestimonialSlider = dynamic(() => import('@components/sliders/Testimonial'), {
+  ssr: false,
+});
+const LatestPostsSlider = dynamic(() => import('@components/sliders/LatestPosts'), {
+  ssr: false,
+});
+const ProjectsMasonry = dynamic(() => import('@components/ProjectsMasonry'), {
+  ssr: false,
+});
 
 export const metadata = {
   title: {
-		default: "Home 3",
-	},
+    default: 'Home 3',
+  },
   description: AppData.settings.siteDescription,
-}
+};
 
 async function HomeOnePage() {
   const posts = await getAllPosts();
@@ -47,13 +53,13 @@ async function HomeOnePage() {
       <Suspense fallback={<div>Loading...</div>}>
         <LatestPostsSlider posts={posts} />
       </Suspense>
-      
+
       <ContactInfoSection />
       <ContactFormSection />
       <PartnersSection />
     </>
   );
-};
+}
 export default HomeOnePage;
 
 async function getAllPosts() {

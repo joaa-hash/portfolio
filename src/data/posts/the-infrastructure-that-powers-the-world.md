@@ -2,14 +2,14 @@
 #preview
 title: 'The Infrastructure That Powers The World'
 date: '2022-01-02'
-image: "/img/blog/6.jpg"
+image: '/img/blog/6.jpg'
 categories:
-    - Architecture
+  - Architecture
 tags:
-    - Branding
-    - Construction
-    - Development
-    - UI
+  - Branding
+  - Construction
+  - Development
+  - UI
 author: Peter Stanbridge
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 ---

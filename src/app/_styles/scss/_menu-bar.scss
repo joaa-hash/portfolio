@@ -87,7 +87,7 @@ menu bar
 
           &:after {
             position: absolute;
-            font-family: "Font Awesome 5 free";
+            font-family: 'Font Awesome 5 free';
             content: '\f054';
             font-weight: 900;
             display: inline-block;
@@ -162,7 +162,8 @@ menu bar
           }
         }
 
-        &:hover, &.art-active {
+        &:hover,
+        &.art-active {
           &.menu-item-has-children:after {
             transform: rotate(90deg) translateX(0px) translateY(-2.5px);
           }
