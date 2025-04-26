@@ -2,12 +2,12 @@
 #preview
 title: 'The office renaissance'
 date: '2022-01-02'
-image: "/img/blog/7.jpg"
+image: '/img/blog/7.jpg'
 categories:
-    - Architecture
+  - Architecture
 tags:
-    - Development
-    - Design
+  - Development
+  - Design
 author: Nguta Ithya
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 ---

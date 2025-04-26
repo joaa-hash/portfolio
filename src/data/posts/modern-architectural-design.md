@@ -2,12 +2,12 @@
 #preview
 title: 'Modern Architectural Design'
 date: '2022-02-02'
-image: "/img/blog/4.jpg"
+image: '/img/blog/4.jpg'
 categories:
-    - Design
+  - Design
 tags:
-    - Design
-    - Development
+  - Design
+  - Development
 author: Charlie Williams
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 ---

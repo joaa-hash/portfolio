@@ -1,4 +1,4 @@
-import FooterLayoutDefault from "./LayoutDefault";
+import FooterLayoutDefault from './LayoutDefault';
 
 const Footer = ({ layout }) => {
   switch (layout) {

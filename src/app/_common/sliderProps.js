@@ -15,7 +15,7 @@ import SwiperCore, {
   Virtual,
   Parallax,
   FreeMode,
-} from "swiper";
+} from 'swiper';
 
 SwiperCore.use([
   Mousewheel,
@@ -36,9 +36,9 @@ SwiperCore.use([
   FreeMode,
 ]);
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export const SliderProps = {
   milImagesFullSlider: {
@@ -73,7 +73,7 @@ export const SliderProps = {
     spaceBetween: 30,
     speed: 1400,
     autoplay: {
-      delay: 5000
+      delay: 5000,
     },
     pagination: {
       el: '.art-testimonial-slider-navigation .swiper-pagination',
@@ -124,5 +124,5 @@ export const SliderProps = {
         slidesPerView: 1,
       },
     },
-  }
+  },
 };

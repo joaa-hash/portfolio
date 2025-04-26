@@ -2,13 +2,13 @@
 #preview
 title: 'Explore new design in urbanism'
 date: '2022-04-02'
-image: "/img/blog/3.jpg"
+image: '/img/blog/3.jpg'
 categories:
-    - Urban
+  - Urban
 tags:
-    - Branding
-    - UI
-    - Design
+  - Branding
+  - UI
+  - Design
 author: Nguta Ithya
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 ---

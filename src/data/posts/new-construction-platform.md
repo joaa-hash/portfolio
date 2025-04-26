@@ -2,12 +2,12 @@
 #preview
 title: 'New Construction Platform'
 date: '2022-03-02'
-image: "/img/blog/5.jpg"
+image: '/img/blog/5.jpg'
 categories:
-    - Technology
+  - Technology
 tags:
-    - Construction
-    - Design
+  - Construction
+  - Design
 author: Tamzyn French
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 ---
