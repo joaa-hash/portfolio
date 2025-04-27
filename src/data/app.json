@@ -12,7 +12,7 @@
   "profile": {
     "avatar": "/img/face-1.jpg",
     "name": "Josue Acuna",
-    "role": "Front-end Deweloper <br>Ui/UX Designer",
+    "role": "Senior Software Engineer <br>Full Stack Developer",
     "info": [
       {
         "label": "Residence",
@@ -30,10 +30,6 @@
     "skills": {
       "language": [
         {
-          "label": "French",
-          "value": "1"
-        },
-        {
           "label": "English",
           "value": "0.9"
         },
@@ -44,24 +40,49 @@
       ],
       "hard": [
         {
-          "label": "html",
-          "value": "0.9"
-        },
-        {
-          "label": "CSS",
+          "label": "JavaScript",
           "value": "0.95"
         },
         {
-          "label": "Js",
+          "label": "Python",
+          "value": "0.8"
+        },
+        {
+          "label": "C#",
           "value": "0.75"
         },
         {
-          "label": "PHP",
-          "value": "0.65"
+          "label": "React",
+          "value": "0.95"
         },
         {
-          "label": "Wordpress",
+          "label": "Next.js",
           "value": "0.85"
+        },
+        {
+          "label": "React Native",
+          "value": "0.9"
+        },
+
+        {
+          "label": "Node",
+          "value": "0.9"
+        },
+        {
+          "label": "Nest",
+          "value": "0.8"
+        },
+        {
+          "label": "Django",
+          "value": "0.8"
+        },
+        {
+          "label": "ASP .NET",
+          "value": "0.7"
+        },
+        {
+          "label": "AI/ML",
+          "value": "0.7"
         }
       ],
       "knowledge": [
