@@ -33,9 +33,8 @@ const InfoBarModule = () => {
             {/* info bar button */}
             <div
               className={`art-info-bar-btn ${toggle ? 'art-active' : ''}`}
-              onClick={() => barOpen()}
+              onClick={barOpen}
             >
-              {/* icon */}
               <i className='fas fa-ellipsis-v'></i>
             </div>
             {/* info bar button end */}
@@ -46,15 +45,10 @@ const InfoBarModule = () => {
           <div className='art-header'>
             {/* avatar */}
             <div className='art-avatar'>
-              <a
-                data-fancybox='avatar'
-                data-no-swup
-                href={AppData.profile.avatar}
-                className='art-avatar-curtain'
-              >
+              <Link href='/' className='art-avatar-curtain'>
                 <img src={AppData.profile.avatar} alt='avatar' />
-                <i className='fas fa-expand'></i>
-              </a>
+                {/* <i className='fas fa-expand'></i> */}
+              </Link>
               {/* available */}
               <div className='art-lamp-light'>
                 {/* add class 'art-not-available' if not available*/}
@@ -71,6 +65,15 @@ const InfoBarModule = () => {
               className='art-sm-text'
               dangerouslySetInnerHTML={{ __html: AppData.profile.role }}
             />
+            <a
+              href={AppData.profile.resume}
+              className='art-link p-15-0'
+              download
+              data-no-swup
+              target='_blank'
+            >
+              Download cv <i className='fas fa-download'></i>
+            </a>
           </div>
           {/* info bar header end */}
 
@@ -92,25 +95,6 @@ const InfoBarModule = () => {
 
             {/* divider */}
             <div className='art-ls-divider'></div>
-
-            {/* language skills */}
-            <div className='art-lang-skills p-30-15'>
-              {AppData.profile.skills.language.map((item, key) => (
-                <div
-                  className='art-lang-skills-item'
-                  key={`profile-skills-lang-item-${key}`}
-                >
-                  <div
-                    id={`circleprog${key + 1}`}
-                    className='art-cirkle-progress'
-                    data-value={item.value}
-                  />
-                  {/* title */}
-                  <h6>{item.label}</h6>
-                </div>
-              ))}
-            </div>
-            {/* language skills end */}
 
             {/* divider */}
             <div className='art-ls-divider'></div>
@@ -153,22 +137,6 @@ const InfoBarModule = () => {
             {/* knowledge list end */}
 
             {/* divider */}
-            <div className='art-ls-divider'></div>
-
-            {/* links frame */}
-            <div className='art-links-frame p-15-15'>
-              {/* download cv button */}
-              <a
-                href={AppData.profile.resume}
-                className='art-link'
-                download
-                data-no-swup
-                target='_blank'
-              >
-                Download cv <i className='fas fa-download'></i>
-              </a>
-            </div>
-            {/* links frame end */}
           </div>
           {/* scroll frame end */}
 

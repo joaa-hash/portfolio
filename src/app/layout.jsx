@@ -51,4 +51,5 @@ const Layouts = ({ children }) => {
     </html>
   );
 };
+
 export default Layouts;
