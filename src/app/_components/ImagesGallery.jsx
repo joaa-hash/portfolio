@@ -11,11 +11,11 @@ const ImagesGallery = ({ items, title }) => {
 
   useEffect(() => {
     //setTimeout(() => {
-    isotope.current = new Isotope('.art-grid', {
-      itemSelector: '.art-grid-item',
+    isotope.current = new Isotope('.ja-grid', {
+      itemSelector: '.ja-grid-item',
       percentPosition: true,
       masonry: {
-        columnWidth: '.art-grid-item',
+        columnWidth: '.ja-grid-item',
       },
       transitionDuration: '0.5s',
     });
@@ -39,9 +39,9 @@ const ImagesGallery = ({ items, title }) => {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4>{title}</h4>
               </div>
@@ -51,21 +51,21 @@ const ImagesGallery = ({ items, title }) => {
           </div>
           {/* col end */}
 
-          <div className='art-grid art-grid-2-col art-gallery'>
+          <div className='ja-grid ja-grid-2-col ja-gallery'>
             {/* grid item */}
             {items.map((item, key) => (
-              <div className='art-grid-item' key={`project-gallery-item-${key}`}>
+              <div className='ja-grid-item' key={`project-gallery-item-${key}`}>
                 {/* grid item frame */}
                 <a
                   data-fancybox='gallery'
                   data-no-swup
                   href={item.image}
-                  className={`art-a art-portfolio-item-frame art-${item.masonrySize}`}
+                  className={`ja-a ja-portfolio-item-frame ja-${item.masonrySize}`}
                 >
                   {/* img */}
                   <img src={item.image} alt={item.alt} />
                   {/* zoom icon */}
-                  <span className='art-item-hover'>
+                  <span className='ja-item-hover'>
                     <i className='fas fa-expand'></i>
                   </span>
                 </a>

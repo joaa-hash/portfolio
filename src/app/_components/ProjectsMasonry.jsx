@@ -12,11 +12,11 @@ const ProjectsMasonry = ({ projects, categories, layout = 'masonry', columns = 2
 
   useEffect(() => {
     //setTimeout(() => {
-    isotope.current = new Isotope('.art-grid', {
-      itemSelector: '.art-grid-item',
+    isotope.current = new Isotope('.ja-grid', {
+      itemSelector: '.ja-grid-item',
       percentPosition: true,
       masonry: {
-        columnWidth: '.art-grid-item',
+        columnWidth: '.ja-grid-item',
       },
       transitionDuration: '.6s',
     });
@@ -34,13 +34,13 @@ const ProjectsMasonry = ({ projects, categories, layout = 'masonry', columns = 2
   const handleFilterKeyChange = (key, e) => {
     e.preventDefault();
     setFilterKey(key);
-    const filterLinks = document.querySelectorAll('.art-filter a');
+    const filterLinks = document.querySelectorAll('.ja-filter a');
     filterLinks.forEach((filter) => {
       const filterValue = filter.getAttribute('data-filter');
       if (filterValue == key) {
-        filter.classList.add('art-current');
+        filter.classList.add('ja-current');
       } else {
-        filter.classList.remove('art-current');
+        filter.classList.remove('ja-current');
       }
     });
   };
@@ -54,23 +54,23 @@ const ProjectsMasonry = ({ projects, categories, layout = 'masonry', columns = 2
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4>Works</h4>
               </div>
               {/* title frame end */}
               {/* right frame */}
-              <div className='art-right-frame'>
+              <div className='ja-right-frame'>
                 {/* filter */}
-                <div className='art-filter'>
+                <div className='ja-filter'>
                   {/* filter link */}
                   <a
                     href='#'
                     data-filter='*'
                     onClick={(e) => handleFilterKeyChange('*', e)}
-                    className='art-link art-current'
+                    className='ja-link ja-current'
                   >
                     All Categories
                   </a>
@@ -80,7 +80,7 @@ const ProjectsMasonry = ({ projects, categories, layout = 'masonry', columns = 2
                       href='#'
                       key={`projects-filter-item-${key}`}
                       data-filter={`${item.slug}`}
-                      className='art-link'
+                      className='ja-link'
                       onClick={(e) => handleFilterKeyChange(item.slug, e)}
                     >
                       {item.name}
@@ -95,11 +95,11 @@ const ProjectsMasonry = ({ projects, categories, layout = 'masonry', columns = 2
           </div>
           {/* col end */}
 
-          <div className={`art-grid art-grid-${columns}-col art-gallery`}>
+          <div className={`ja-grid ja-grid-${columns}-col ja-gallery`}>
             {/* grid item */}
             {projects.map((item, key) => (
               <div
-                className={`art-grid-item ${item.category_slug}`}
+                className={`ja-grid-item ${item.category_slug}`}
                 key={`projects-item-${key}`}
               >
                 {/* grid item frame */}
@@ -109,26 +109,32 @@ const ProjectsMasonry = ({ projects, categories, layout = 'masonry', columns = 2
                   href={item.image}
                   className={
                     layout == 'masonry'
-                      ? `art-a art-portfolio-item-frame art-${columns == 3 && item.masonrySize == 'horizontal' ? 'square' : item.masonrySize}`
-                      : `art-a art-portfolio-item-frame art-${columns == 3 ? 'square' : 'horizontal'}`
+                      ? `ja-a ja-portfolio-item-frame ja-${
+                          columns == 3 && item.masonrySize == 'horizontal'
+                            ? 'square'
+                            : item.masonrySize
+                        }`
+                      : `ja-a ja-portfolio-item-frame ja-${
+                          columns == 3 ? 'square' : 'horizontal'
+                        }`
                   }
                 >
                   {/* img */}
                   <img src={item.image} alt={item.title} />
                   {/* zoom icon */}
-                  <span className='art-item-hover'>
+                  <span className='ja-item-hover'>
                     <i className='fas fa-expand'></i>
                   </span>
                 </a>
                 {/* grid item frame end */}
                 {/* description */}
-                <div className='art-item-description'>
+                <div className='ja-item-description'>
                   {/* title */}
                   <h5 className='mb-15'>{item.title}</h5>
                   {/* button */}
                   <Link
                     href={`/projects/${item.id}`}
-                    className='art-link art-color-link art-w-chevron'
+                    className='ja-link ja-color-link ja-w-chevron'
                   >
                     Read more
                   </Link>

@@ -26,9 +26,9 @@ async function BlogTag({ params }) {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4>{'Tag: ' + tagData.title}</h4>
               </div>

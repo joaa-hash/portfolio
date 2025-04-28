@@ -4,33 +4,33 @@ content
 
 ------------------------------ */
 /* ----- section title ----- */
-.art-section-title {
+.ja-section-title {
   display: flex;
   justify-content: space-between;
 
-  & .art-title-frame {
+  & .ja-title-frame {
     align-self: center;
     position: relative;
     margin-bottom: 30px;
   }
 
-  & .art-right-frame {
+  & .ja-right-frame {
     padding-bottom: 30px;
   }
 }
 /* ----- card ----- */
-.art-card {
+.ja-card {
   background: $card-color;
   box-shadow: $shadow-1;
   padding: 30px;
   margin-bottom: 30px;
 
-  &.art-fluid-card {
+  &.ja-fluid-card {
     height: calc(100% - 30px);
   }
 }
 /* ----- banner ----- */
-.art-banner-back {
+.ja-banner-back {
   content: '';
   position: absolute;
   z-index: 0;
@@ -44,7 +44,7 @@ content
   background: $content-color-s-light;
 }
 
-.art-banner {
+.ja-banner {
   transition: $tr-lg;
   background-size: cover;
   background-position: center;
@@ -52,7 +52,7 @@ content
   box-shadow: $shadow-1;
   z-index: 999;
 
-  & .art-banner-overlay {
+  & .ja-banner-overlay {
     position: relative;
     display: flex;
     padding: 60px;
@@ -64,7 +64,7 @@ content
       rgba(43, 43, 53, 0.7) 100%
     );
 
-    &.art-side-overlay {
+    &.ja-side-overlay {
       background-image: linear-gradient(
         90deg,
         rgba(45, 45, 58, 0.9) 15%,
@@ -73,7 +73,7 @@ content
       );
     }
 
-    & .art-banner-title {
+    & .ja-banner-title {
       width: 100%;
       align-self: center;
 
@@ -82,7 +82,7 @@ content
       }
     }
 
-    & .art-banner-photo {
+    & .ja-banner-photo {
       width: 390px;
       position: absolute;
       right: 30px;
@@ -91,7 +91,7 @@ content
   }
 }
 /* ----- typing code ----- */
-.art-code {
+.ja-code {
   font-family: $sf;
   color: $text-color-1;
 
@@ -101,24 +101,24 @@ content
   }
 }
 /* ----- counters ----- */
-.art-counter-frame {
+.ja-counter-frame {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
   opacity: 1;
   position: relative;
 
-  & .art-counter-box {
+  & .ja-counter-box {
     min-width: 60px;
 
-    & .art-counter {
+    & .ja-counter {
       color: $main-color;
       font-weight: 600;
       font-family: $pf;
       font-size: 22px;
     }
 
-    & .art-counter-plus {
+    & .ja-counter-plus {
       margin-left: 3px;
       color: $main-color;
       font-weight: 600;
@@ -132,7 +132,7 @@ content
   display: flex;
   align-self: stretch;
 }
-.art-service-icon-box {
+.ja-service-icon-box {
   margin-bottom: 30px;
   position: relative;
   z-index: 1;
@@ -140,13 +140,13 @@ content
   box-shadow: $shadow-1;
   background: $card-color;
 
-  & .art-service-ib-content {
+  & .ja-service-ib-content {
     display: flex;
     flex-direction: column;
     height: 100%;
     padding: 30px;
 
-    & .art-service-ib-icon {
+    & .ja-service-ib-icon {
       position: absolute;
       right: 10px;
       bottom: -45px;
@@ -158,7 +158,7 @@ content
   }
 }
 /* ----- prices ----- */
-.art-price {
+.ja-price {
   margin-bottom: 30px;
   overflow: hidden;
   position: relative;
@@ -168,7 +168,7 @@ content
   text-align: center;
   transition: $tr-lg;
 
-  &.art-popular-price {
+  &.ja-popular-price {
     transform: scale(1.03);
 
     &:before {
@@ -189,11 +189,11 @@ content
     }
   }
 
-  & .art-price-body {
+  & .ja-price-body {
     position: relative;
     padding: 30px;
 
-    & .art-asterisk {
+    & .ja-asterisk {
       position: absolute;
       width: 100%;
       bottom: 10px;
@@ -203,14 +203,14 @@ content
       opacity: 0.4;
     }
 
-    & .art-price-cost {
+    & .ja-price-cost {
       position: relative;
       display: inline-flex;
       justify-content: center;
       margin-bottom: 30px;
       padding: 0 10px;
 
-      & .art-number {
+      & .ja-number {
         font-size: 32px;
         color: $main-color;
         font-weight: 600;
@@ -238,7 +238,7 @@ content
       }
     }
 
-    & .art-price-list {
+    & .ja-price-list {
       padding: 0;
       margin: 0 0 30px;
 
@@ -255,7 +255,7 @@ content
           color: $main-color;
         }
 
-        &.art-empty-item {
+        &.ja-empty-item {
           opacity: 0.3;
 
           &:before {
@@ -270,18 +270,18 @@ content
       }
     }
 
-    & .art-link {
+    & .ja-link {
       margin: 0;
     }
   }
 }
 /* ----- testimonials ----- */
-.art-testimonial-slider {
+.ja-testimonial-slider {
   width: 100%;
   overflow: visible !important;
 }
 
-.art-testimonial {
+.ja-testimonial {
   position: relative;
   background-size: cover;
   padding: 30px;
@@ -293,7 +293,7 @@ content
     height: 100%;
     z-index: 0;
 
-    & .art-testimonial-face {
+    & .ja-testimonial-face {
       position: absolute;
       object-fit: cover;
       right: 30px;
@@ -305,14 +305,14 @@ content
     }
   }
 
-  & .art-testimonial-footer {
+  & .ja-testimonial-footer {
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-content: center;
 
-    & .art-star-rate {
+    & .ja-star-rate {
       padding: 0;
       margin: 0;
       box-shadow: inset $shadow-1;
@@ -328,13 +328,13 @@ content
         list-style-type: none;
         margin-right: 5px;
 
-        &.art-empty-item {
+        &.ja-empty-item {
           color: rgba(43, 43, 53, 0.98);
         }
       }
     }
 
-    & .art-testimonial-icon {
+    & .ja-testimonial-icon {
       position: absolute;
       left: 45%;
       top: 20px;
@@ -346,7 +346,7 @@ content
   }
 }
 
-.art-slider-navigation {
+.ja-slider-navigation {
   padding: 15px 0 0;
   display: flex;
   justify-content: space-between;
@@ -377,10 +377,10 @@ content
     }
   }
 
-  & .art-slider-nav-frame {
+  & .ja-slider-nav-frame {
     display: flex;
 
-    & .art-slider-nav {
+    & .ja-slider-nav {
       margin-left: 15px;
       cursor: pointer;
       transition: $tr-md;
@@ -397,7 +397,7 @@ content
   }
 }
 /* ----- timeline ----- */
-.art-timeline {
+.ja-timeline {
   position: relative;
 
   &::before {
@@ -410,10 +410,10 @@ content
     background: $deep-color;
   }
 
-  & .art-timeline-item {
+  & .ja-timeline-item {
     position: relative;
 
-    & .art-timeline-mark-light {
+    & .ja-timeline-mark-light {
       background: $text-color-1;
       position: absolute;
       top: 4px;
@@ -425,7 +425,7 @@ content
       transition: $tr-md;
     }
 
-    & .art-timeline-mark {
+    & .ja-timeline-mark {
       position: absolute;
       top: 8px;
       right: 0;
@@ -438,13 +438,13 @@ content
     }
 
     &:hover {
-      & .art-timeline-mark-light {
+      & .ja-timeline-mark-light {
         animation: puls 1s infinite;
       }
     }
   }
 
-  & .art-timeline-content {
+  & .ja-timeline-content {
     position: relative;
     margin-right: 45px;
     background: $card-color;
@@ -464,16 +464,16 @@ content
       border-top-right-radius: 50%;
     }
 
-    & .art-card-header {
+    & .ja-card-header {
       width: 100%;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
 
-      & .art-right-side {
+      & .ja-right-side {
         margin-bottom: 15px;
 
-        & .art-date {
+        & .ja-date {
           color: $text-color-3;
           margin-left: auto;
           background: $info-bar-1-color;
@@ -487,8 +487,8 @@ content
   }
 }
 /* ----- contact form ----- */
-.art-form-field input,
-.art-form-field textarea {
+.ja-form-field input,
+.ja-form-field textarea {
   height: 50px;
   width: 100%;
   background: $info-bar-2-color;
@@ -505,13 +505,13 @@ content
   color: $text-color-3;
 }
 
-.art-form-field textarea {
+.ja-form-field textarea {
   padding-left: 15px;
   padding-top: 15px;
   height: 150px;
   border-left: solid 50px $info-bar-1-color;
 
-  &.art-active {
+  &.ja-active {
     border-color: $main-color;
   }
 
@@ -520,22 +520,22 @@ content
   }
 }
 
-.art-contact-form .art-input:focus {
+.ja-contact-form .ja-input:focus {
   outline: none;
 }
 
-.art-contact-form .art-input.art-active + label,
-.art-contact-form .art-input:focus + label {
+.ja-contact-form .ja-input.ja-active + label,
+.ja-contact-form .ja-input:focus + label {
   background: $main-color;
   color: $info-bar-1-color;
 }
 
-.art-form-field {
+.ja-form-field {
   position: relative;
   margin-bottom: 30px;
 }
 
-.art-contact-form label {
+.ja-contact-form label {
   text-align: center;
   color: $text-color-2;
   position: absolute;
@@ -554,11 +554,11 @@ content
   cursor: text;
 }
 
-.art-submit-frame {
+.ja-submit-frame {
   position: relative;
   height: 45px;
 
-  & .art-submit {
+  & .ja-submit {
     margin: 0;
     overflow: hidden;
     position: relative;
@@ -569,7 +569,7 @@ content
     }
   }
 
-  & .art-success {
+  & .ja-success {
     position: absolute;
     top: 0;
     left: 0;
@@ -593,13 +593,13 @@ content
 }
 
 /* ----- blog ----- */
-.art-blog-card {
+.ja-blog-card {
   position: relative;
   overflow: hidden;
   box-shadow: $shadow-1;
   margin-bottom: 30px;
 
-  & .art-port-cover {
+  & .ja-port-cover {
     position: relative;
     padding-bottom: 60%;
     display: block;
@@ -614,7 +614,7 @@ content
     }
   }
 
-  & .art-post-description {
+  & .ja-post-description {
     background: $card-color;
     padding: 30px;
     position: relative;
@@ -622,7 +622,7 @@ content
   }
 
   &:hover {
-    & .art-port-cover {
+    & .ja-port-cover {
       & img {
         transform: scale(1.07);
       }
@@ -630,20 +630,20 @@ content
   }
 }
 
-.art-blog-slider {
-  & .art-blog-card {
+.ja-blog-slider {
+  & .ja-blog-card {
     margin-bottom: 0;
   }
 }
 /* ----- pagination ----- */
-.art-pagination {
+.ja-pagination {
   box-shadow: $shadow-1;
   padding: 30px 30px 25px;
   background: $card-color;
   justify-content: space-between;
   display: flex;
 
-  & .art-pagination-center {
+  & .ja-pagination-center {
     text-align: center;
     position: absolute;
     width: 200px;
@@ -655,18 +655,18 @@ content
       transition: $tr-md;
       padding: 0 5px;
 
-      &.art-active-pag {
+      &.ja-active-pag {
         color: $main-color;
       }
     }
   }
 
-  & .art-link {
+  & .ja-link {
     margin: 0;
   }
 }
 /* ----- brands ----- */
-.art-brand {
+.ja-brand {
   width: 120px;
   height: 120px;
   margin: 0 auto;
@@ -712,18 +712,18 @@ portfolio
 
 ------------------------------ */
 /* ----- filter ----- */
-.art-filter {
+.ja-filter {
   & a {
     color: $text-color-2;
     margin-bottom: 0;
 
-    &.art-current {
+    &.ja-current {
       color: $text-color-1;
     }
   }
 }
 /* ----- portfolio items ----- */
-.art-portfolio-item-frame {
+.ja-portfolio-item-frame {
   display: block;
   width: 100%;
   outline: inherit;
@@ -744,7 +744,7 @@ portfolio
     transition: $tr-md;
   }
 
-  & .art-item-hover {
+  & .ja-item-hover {
     width: 27px;
     height: 27px;
     box-shadow: $shadow-2;
@@ -763,7 +763,7 @@ portfolio
   }
 
   &:hover {
-    & .art-item-hover {
+    & .ja-item-hover {
       opacity: 0.5;
 
       &:hover {
@@ -779,7 +779,7 @@ portfolio
   }
 }
 
-.art-grid {
+.ja-grid {
   transition: $tr-lg;
   width: 100%;
   /* clear fix */
@@ -789,7 +789,7 @@ portfolio
     clear: both;
   }
 
-  & .art-grid-item {
+  & .ja-grid-item {
     float: left;
     margin-bottom: 30px;
     overflow: hidden;
@@ -797,7 +797,7 @@ portfolio
     height: auto;
     padding: 0 15px;
 
-    & .art-item-description {
+    & .ja-item-description {
       position: absolute;
       z-index: 9;
       bottom: 0;
@@ -811,46 +811,46 @@ portfolio
     }
 
     &:hover {
-      & .art-item-description {
+      & .ja-item-description {
         transform: translateY(0);
       }
     }
   }
 
-  &.art-grid-2-col {
-    & .art-grid-item {
+  &.ja-grid-2-col {
+    & .ja-grid-item {
       width: 50%;
 
-      & .art-portfolio-item-frame {
-        &.art-horizontal {
+      & .ja-portfolio-item-frame {
+        &.ja-horizontal {
           padding-bottom: 66.7%;
         }
 
-        &.art-vertical {
+        &.ja-vertical {
           padding-bottom: 140%;
         }
 
-        &.art-square {
+        &.ja-square {
           padding-bottom: 90%;
         }
       }
     }
   }
 
-  &.art-grid-3-col {
-    & .art-grid-item {
+  &.ja-grid-3-col {
+    & .ja-grid-item {
       width: 33.3333%;
 
-      & .art-portfolio-item-frame {
-        &.art-horizontal {
+      & .ja-portfolio-item-frame {
+        &.ja-horizontal {
           padding-bottom: 65%;
         }
 
-        &.art-vertical {
+        &.ja-vertical {
           padding-bottom: 140%;
         }
 
-        &.art-square {
+        &.ja-square {
           padding-bottom: 90%;
         }
       }
@@ -859,15 +859,15 @@ portfolio
 }
 /* ----- touch device ----- */
 @media (pointer: coarse) {
-  .art-portfolio-item-frame {
-    & .art-item-hover {
+  .ja-portfolio-item-frame {
+    & .ja-item-hover {
       opacity: 0.5;
     }
   }
 
-  .art-grid {
-    & .art-grid-item {
-      & .art-item-description {
+  .ja-grid {
+    & .ja-grid-item {
+      & .ja-item-description {
         position: relative;
         left: 0;
         width: 100%;
@@ -875,7 +875,7 @@ portfolio
       }
 
       &:hover {
-        & .art-item-description {
+        & .ja-item-description {
           transform: none;
         }
       }
@@ -883,18 +883,18 @@ portfolio
   }
 }
 /* ----- single project ----- */
-.art-project-cover {
+.ja-project-cover {
   position: relative;
   overflow: hidden;
   box-shadow: $shadow-1;
   margin-bottom: 30px;
 
-  & .art-portfolio-item-frame {
+  & .ja-portfolio-item-frame {
     padding-bottom: 50%;
   }
 }
 
-.art-project-category {
+.ja-project-category {
   color: $text-color-3;
   margin-left: auto;
   display: inline-block;
@@ -998,7 +998,7 @@ portfolio
   transition: $tr-md;
 }
 
-.art-recomendation-popup {
+.ja-recomendation-popup {
   background-color: transparent;
   max-width: 50%;
 }
@@ -1008,16 +1008,16 @@ content (after 1600px)
 
 ------------------------------ */
 @media (max-width: 1600px) {
-  .art-banner {
-    & .art-banner-overlay {
-      & .art-banner-title {
+  .ja-banner {
+    & .ja-banner-overlay {
+      & .ja-banner-title {
         & h1 {
           color: $text-color-1;
           font-size: 42px;
         }
       }
 
-      & .art-banner-photo {
+      & .ja-banner-photo {
         width: 360px;
       }
     }
@@ -1029,20 +1029,20 @@ content (after 1400px)
 
 ------------------------------ */
 @media (max-width: 1400px) {
-  .art-banner-back {
+  .ja-banner-back {
     display: none;
   }
 
-  .art-banner {
-    & .art-banner-overlay {
-      & .art-banner-title {
+  .ja-banner {
+    & .ja-banner-overlay {
+      & .ja-banner-title {
         & h1 {
           color: $text-color-1;
           font-size: 36px;
         }
       }
 
-      & .art-banner-photo {
+      & .ja-banner-photo {
         width: 320px;
       }
     }
@@ -1054,23 +1054,23 @@ content (after 1200px)
 
 ------------------------------ */
 @media (max-width: 1200px) {
-  .art-banner {
-    & .art-banner-overlay {
-      & .art-banner-photo {
+  .ja-banner {
+    & .ja-banner-overlay {
+      & .ja-banner-photo {
         display: none;
       }
     }
   }
 
-  .art-grid {
-    &.art-grid-2-col {
-      & .art-grid-item {
+  .ja-grid {
+    &.ja-grid-2-col {
+      & .ja-grid-item {
         width: 50%;
       }
     }
 
-    &.art-grid-3-col {
-      & .art-grid-item {
+    &.ja-grid-3-col {
+      & .ja-grid-item {
         width: 50%;
       }
     }
@@ -1082,11 +1082,11 @@ content (after 920px)
 
 ------------------------------ */
 @media (max-width: 920px) {
-  .art-banner {
-    & .art-banner-overlay {
+  .ja-banner {
+    & .ja-banner-overlay {
       padding: 60px 30px;
 
-      & .art-banner-title {
+      & .ja-banner-title {
         text-align: center;
 
         & h1 {
@@ -1094,7 +1094,7 @@ content (after 920px)
           font-size: 46px;
         }
 
-        & .art-buttons-frame {
+        & .ja-buttons-frame {
           text-align: center;
           display: flex;
           flex-wrap: wrap;
@@ -1113,13 +1113,13 @@ content (after 920px)
     }
   }
 
-  .art-code {
+  .ja-code {
     min-height: 70px;
     margin-bottom: 0;
   }
 
-  .art-timeline {
-    & .art-timeline-content {
+  .ja-timeline {
+    & .ja-timeline-content {
       margin-right: 30px;
     }
   }
@@ -1146,30 +1146,30 @@ content (after 768px)
 
 ------------------------------ */
 @media (max-width: 768px) {
-  .art-section-title {
+  .ja-section-title {
     flex-direction: column;
 
-    & .art-right-frame {
+    & .ja-right-frame {
       margin-left: auto;
       margin-right: auto;
     }
   }
 
-  .art-grid {
-    &.art-grid-2-col {
-      & .art-grid-item {
+  .ja-grid {
+    &.ja-grid-2-col {
+      & .ja-grid-item {
         width: 100%;
       }
     }
 
-    &.art-grid-3-col {
-      & .art-grid-item {
+    &.ja-grid-3-col {
+      & .ja-grid-item {
         width: 100%;
       }
     }
   }
 
-  .art-filter {
+  .ja-filter {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -1179,7 +1179,7 @@ content (after 768px)
     }
   }
 
-  .art-m-hidden {
+  .ja-m-hidden {
     display: none;
   }
 }
@@ -1189,15 +1189,15 @@ content (after 500px)
 
 ------------------------------ */
 @media (max-width: 500px) {
-  .art-section-title {
+  .ja-section-title {
     flex-direction: column;
 
-    & .art-right-frame {
+    & .ja-right-frame {
       margin-left: auto;
       margin-right: auto;
       width: 100%;
 
-      .art-filter {
+      .ja-filter {
         display: block;
 
         a {
@@ -1207,15 +1207,15 @@ content (after 500px)
     }
   }
 
-  .art-grid {
-    &.art-grid-2-col {
-      & .art-grid-item {
+  .ja-grid {
+    &.ja-grid-2-col {
+      & .ja-grid-item {
         width: 100%;
       }
     }
 
-    &.art-grid-3-col {
-      & .art-grid-item {
+    &.ja-grid-3-col {
+      & .ja-grid-item {
         width: 100%;
       }
     }
@@ -1226,30 +1226,30 @@ content (after 500px)
       Content Formatting
 -------------------------------- */
 
-.art-text > *:first-child {
+.ja-text > *:first-child {
   margin-top: 0;
 }
 
-.art-text > *:last-child {
+.ja-text > *:last-child {
   margin-bottom: 0;
 }
 
-.art-text:after {
+.ja-text:after {
   content: '';
   position: relative;
   clear: both;
   display: block;
 }
 
-.art-text img {
+.ja-text img {
   max-width: 100%;
 }
 
-.art-text img + figure {
+.ja-text img + figure {
   margin-top: 20px;
 }
 
-.art-text table {
+.ja-text table {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -1258,7 +1258,7 @@ content (after 500px)
   border: 1px solid #585d65;
 }
 
-.art-text table th {
+.ja-text table th {
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 700;
@@ -1268,7 +1268,7 @@ content (after 500px)
   text-align: center;
 }
 
-.art-text table td {
+.ja-text table td {
   border: none;
   padding: 10px 20px;
   font-size: 14px;
@@ -1277,13 +1277,13 @@ content (after 500px)
   border: 1px solid #585d65;
 }
 
-.art-text table td#today {
+.ja-text table td#today {
   background: #ffc107;
   color: #fafafc !important;
   font-weight: 700;
 }
 
-.art-text table caption {
+.ja-text table caption {
   margin: 0 0 10px 0;
   padding: 0;
   color: #fafafc;
@@ -1292,99 +1292,99 @@ content (after 500px)
 }
 
 @media screen and (max-width: 720px) {
-  .art-text th {
+  .ja-text th {
     padding: 10px;
     font-size: 13px;
   }
-  .art-text td {
+  .ja-text td {
     padding: 10px;
     font-size: 13px;
   }
 }
 
-.art-text {
+.ja-text {
   word-wrap: break-word;
 }
 
-.art-text > *:first-child {
+.ja-text > *:first-child {
   margin-top: 0;
 }
 
-.art-text > *:last-child {
+.ja-text > *:last-child {
   margin-bottom: 0;
 }
 
-.art-text:after {
+.ja-text:after {
   content: '';
   position: relative;
   clear: both;
   display: block;
 }
 
-.art-text .content-box * {
+.ja-text .content-box * {
   margin-top: 0;
 }
 
-.art-text img {
+.ja-text img {
   max-width: 100%;
   height: auto;
 }
 
-.art-text p a {
+.ja-text p a {
   color: #ffc107;
 }
 
-.art-text p a:hover {
+.ja-text p a:hover {
   text-decoration: underline;
 }
 
-.art-text iframe,
-.art-text object {
+.ja-text iframe,
+.ja-text object {
   max-width: 100%;
 }
 
-.art-text ul {
+.ja-text ul {
   margin: 1.2rem 0;
   padding: 0;
   list-style: none;
 }
 
-.art-text ol {
+.ja-text ol {
   margin: 1.2rem 0;
   padding: 0;
   list-style-position: inside;
 }
 
-.art-text ul ul,
-.art-text ul ol,
-.art-text ol ol,
-.art-text ol ul {
+.ja-text ul ul,
+.ja-text ul ol,
+.ja-text ol ol,
+.ja-text ol ul {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 10px;
 }
 
-.art-text ul > li,
-.art-text ol > li {
+.ja-text ul > li,
+.ja-text ol > li {
   margin: 5px 0;
   padding: 0 0 0 14px;
   position: relative;
   font-weight: 400;
 }
 
-.art-text ul > li a,
-.art-text ol > li a {
+.ja-text ul > li a,
+.ja-text ol > li a {
   color: #fafafc;
 }
 
-.art-text ol > li {
+.ja-text ol > li {
   margin: 5px 0;
   padding: 0;
   position: relative;
   font-weight: 400;
 }
 
-.art-text ul > li:before {
+.ja-text ul > li:before {
   margin: 0;
   content: '';
   position: absolute;
@@ -1399,69 +1399,69 @@ content (after 500px)
   -khtml-border-radius: 4px;
 }
 
-.art-text h1,
-.art-text h2,
-.art-text h3,
-.art-text h4,
-.art-text h5,
-.art-text h6 {
+.ja-text h1,
+.ja-text h2,
+.ja-text h3,
+.ja-text h4,
+.ja-text h5,
+.ja-text h6 {
   margin-top: 2rem;
   margin-bottom: 1.25rem;
   line-height: 1.2;
 }
 
-.art-text h1 + h2,
-.art-text h2 + h3,
-.art-text h3 + h4,
-.art-text h4 + h5,
-.art-text h5 + h6,
-.art-text h6 {
+.ja-text h1 + h2,
+.ja-text h2 + h3,
+.ja-text h3 + h4,
+.ja-text h4 + h5,
+.ja-text h5 + h6,
+.ja-text h6 {
   margin-top: 1.25rem;
 }
 
-.art-text > *:first-child,
-.art-text > div > *:first-child {
+.ja-text > *:first-child,
+.ja-text > div > *:first-child {
   margin-top: 0;
 }
 
-.art-text p {
+.ja-text p {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
-.art-text table tbody th {
+.ja-text table tbody th {
   background: transparent;
 }
 
-.art-text table caption {
+.ja-text table caption {
   margin: 0 0 10px 0;
   padding: 0;
   caption-side: top;
 }
 
-.art-text figure {
+.ja-text figure {
   margin: 0 0 20px 0;
   max-width: 100%;
   overflow: auto;
 }
 
 @media (max-width: 720px) {
-  .art-text table th {
+  .ja-text table th {
     padding: 8px;
   }
-  .art-text table td {
+  .ja-text table td {
     padding: 8px;
   }
 }
 
-.art-text {
+.ja-text {
   font-size: 14px;
   line-height: 1.8;
 }
 
 /* ----- quote ----- */
 
-.art-text blockquote {
+.ja-text blockquote {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 30px 40px;
@@ -1476,11 +1476,11 @@ content (after 500px)
   position: relative;
 }
 
-.art-text blockquote cite {
+.ja-text blockquote cite {
   font-style: italic;
 }
 
-.art-text blockquote:before {
+.ja-text blockquote:before {
   position: absolute;
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
@@ -1492,7 +1492,7 @@ content (after 500px)
   color: #fafafc;
 }
 
-.art-text blockquote:after {
+.ja-text blockquote:after {
   position: absolute;
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;

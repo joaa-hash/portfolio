@@ -17,7 +17,7 @@ const ImagesFullSlider = ({ items }) => {
             {/* slider container */}
             <Swiper
               {...SliderProps.milImagesFullSlider}
-              className='swiper-container art-works-slider'
+              className='swiper-container ja-works-slider'
               style={{ overflow: 'visible' }}
             >
               {items.map((item, key) => (
@@ -27,12 +27,12 @@ const ImagesFullSlider = ({ items }) => {
                     data-fancybox='gallery'
                     data-no-swup
                     href={item.image}
-                    className='art-a art-portfolio-item-frame art-horizontal'
+                    className='ja-a ja-portfolio-item-frame ja-horizontal'
                   >
                     {/* img */}
                     <img src={item.image} alt={item.name} />
                     {/* zoom icon */}
-                    <span className='art-item-hover'>
+                    <span className='ja-item-hover'>
                       <i className='fas fa-expand'></i>
                     </span>
                   </a>
@@ -47,24 +47,24 @@ const ImagesFullSlider = ({ items }) => {
           {/* col */}
           <div className='col-lg-12'>
             {/* slider navigation */}
-            <div className='art-project-slider-navigation art-slider-navigation'>
+            <div className='ja-project-slider-navigation ja-slider-navigation'>
               {/* left side */}
-              <div className='art-sn-left'>
+              <div className='ja-sn-left'>
                 {/* slider pagination */}
                 <div className='swiper-pagination'></div>
               </div>
               {/* left side end */}
 
               {/* right side */}
-              <div className='art-sn-right'>
+              <div className='ja-sn-right'>
                 {/* slider navigation */}
-                <div className='art-slider-nav-frame'>
+                <div className='ja-slider-nav-frame'>
                   {/* prev */}
-                  <div className='art-slider-nav art-works-swiper-prev'>
+                  <div className='ja-slider-nav ja-works-swiper-prev'>
                     <i className='fas fa-chevron-left'></i>
                   </div>
                   {/* next */}
-                  <div className='art-slider-nav art-works-swiper-next'>
+                  <div className='ja-slider-nav ja-works-swiper-next'>
                     <i className='fas fa-chevron-right'></i>
                   </div>
                 </div>

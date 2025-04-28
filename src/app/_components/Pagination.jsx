@@ -9,7 +9,7 @@ const Pagination = ({ currentPage, totalItems, perPage, renderPageLink }) => {
   return (
     <>
       {/* pagination */}
-      <div className='art-a art-pagination'>
+      <div className='ja-a ja-pagination'>
         {currentPage > 1 && (
           <Link
             key='pagination-item-prev'
@@ -18,7 +18,7 @@ const Pagination = ({ currentPage, totalItems, perPage, renderPageLink }) => {
                 ? renderPageLink(currentPage - 1)
                 : renderPageLink(currentPage)
             }
-            className='art-link art-color-link art-w-chevron art-left-link'
+            className='ja-link ja-color-link ja-w-chevron ja-left-link'
           >
             Prev
           </Link>
@@ -26,13 +26,13 @@ const Pagination = ({ currentPage, totalItems, perPage, renderPageLink }) => {
         {currentPage <= 1 && (
           <div
             key='pagination-item-prev'
-            className='art-link art-color-link art-w-chevron art-left-link'
+            className='ja-link ja-color-link ja-w-chevron ja-left-link'
           >
             Prev
           </div>
         )}
 
-        <div className='art-pagination-center art-m-hidden'>
+        <div className='ja-pagination-center ja-m-hidden'>
           {pages.map((pageNumber, i) =>
             pageNumber === dotts ? (
               <span className='mil-pagination-text' key={`pagination-item-${i}`}>
@@ -42,7 +42,7 @@ const Pagination = ({ currentPage, totalItems, perPage, renderPageLink }) => {
               <Link
                 href={renderPageLink(pageNumber)}
                 key={`pagination-item-${i}`}
-                className={`${pageNumber === currentPage ? 'art-active-pag' : ''}`}
+                className={`${pageNumber === currentPage ? 'ja-active-pag' : ''}`}
               >
                 {pageNumber}
               </Link>
@@ -58,16 +58,13 @@ const Pagination = ({ currentPage, totalItems, perPage, renderPageLink }) => {
                 ? renderPageLink(currentPage + 1)
                 : renderPageLink(currentPage)
             }
-            className='art-link art-color-link art-w-chevron'
+            className='ja-link ja-color-link ja-w-chevron'
           >
             Next
           </Link>
         )}
         {currentPage == pages.length && (
-          <div
-            key='pagination-item-next'
-            className='art-link art-color-link art-w-chevron'
-          >
+          <div key='pagination-item-next' className='ja-link ja-color-link ja-w-chevron'>
             Next
           </div>
         )}

@@ -16,24 +16,24 @@ const HeroOne = () => {
           <div className='col-lg-12'>
             {/* banner */}
             <div
-              className='art-a art-banner'
+              className='ja-a ja-banner'
               style={{ backgroundImage: 'url(' + Data.bg_image + ')' }}
             >
               {/* banner back */}
-              <div className='art-banner-back'></div>
+              <div className='ja-banner-back'></div>
               {/* banner dec */}
-              <div className='art-banner-dec'></div>
+              <div className='ja-banner-dec'></div>
               {/* banner overlay */}
-              <div className='art-banner-overlay'>
+              <div className='ja-banner-overlay'>
                 {/* main title */}
-                <div className='art-banner-title'>
+                <div className='ja-banner-title'>
                   {/* title */}
                   <h1
                     className='mb-15'
                     dangerouslySetInnerHTML={{ __html: Data.title }}
                   />
                   {/* suptitle */}
-                  <div className='art-lg-text art-code mb-25'>
+                  <div className='ja-lg-text ja-code mb-25'>
                     <span dangerouslySetInnerHTML={{ __html: Data.subtitle.start }} />
                     <span
                       className='txt-rotate'
@@ -48,9 +48,9 @@ const HeroOne = () => {
                     />
                     <span dangerouslySetInnerHTML={{ __html: Data.subtitle.end }} />
                   </div>
-                  <div className='art-buttons-frame'>
+                  <div className='ja-buttons-frame'>
                     {/* button */}
-                    <Link href={Data.button.link} className='art-btn art-btn-md'>
+                    <Link href={Data.button.link} className='ja-btn ja-btn-md'>
                       <span>{Data.button.label}</span>
                     </Link>
                   </div>

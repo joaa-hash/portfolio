@@ -12,9 +12,9 @@ const InfoBarModule = () => {
   const barOpen = () => {
     setToggle(!toggle);
     if (!toggle) {
-      document.querySelector('.art-content').classList.add('art-active');
+      document.querySelector('.ja-content').classList.add('ja-active');
     } else {
-      document.querySelector('.art-content').classList.remove('art-active');
+      document.querySelector('.ja-content').classList.remove('ja-active');
     }
   };
 
@@ -25,14 +25,14 @@ const InfoBarModule = () => {
   return (
     <>
       {/* info bar */}
-      <div className={`art-info-bar ${toggle ? 'art-active' : ''}`}>
+      <div className={`ja-info-bar ${toggle ? 'ja-active' : ''}`}>
         {/* menu bar frame */}
-        <div className='art-info-bar-frame'>
+        <div className='ja-info-bar-frame'>
           {/* info bar header */}
-          <div className='art-info-bar-header'>
+          <div className='ja-info-bar-header'>
             {/* info bar button */}
             <div
-              className={`art-info-bar-btn ${toggle ? 'art-active' : ''}`}
+              className={`ja-info-bar-btn ${toggle ? 'ja-active' : ''}`}
               onClick={barOpen}
             >
               <i className='fas fa-ellipsis-v'></i>
@@ -42,32 +42,32 @@ const InfoBarModule = () => {
           {/* info bar header end */}
 
           {/* info bar header */}
-          <div className='art-header'>
+          <div className='ja-header'>
             {/* avatar */}
-            <div className='art-avatar'>
-              <Link href='/' className='art-avatar-curtain'>
+            <div className='ja-avatar'>
+              <Link href='/' className='ja-avatar-curtain'>
                 <img src={AppData.profile.avatar} alt='avatar' />
                 {/* <i className='fas fa-expand'></i> */}
               </Link>
               {/* available */}
-              <div className='art-lamp-light'>
-                {/* add class 'art-not-available' if not available*/}
-                <div className='art-available-lamp'></div>
+              <div className='ja-lamp-light'>
+                {/* add class 'ja-not-available' if not available*/}
+                <div className='ja-available-lamp'></div>
               </div>
             </div>
             {/* avatar end */}
             {/* name */}
-            <h5 className='art-name mb-10'>
+            <h5 className='ja-name mb-10'>
               <Link href='/'>{AppData.profile.name}</Link>
             </h5>
             {/* post */}
             <div
-              className='art-sm-text'
+              className='ja-sm-text'
               dangerouslySetInnerHTML={{ __html: AppData.profile.role }}
             />
             <a
               href={AppData.profile.resume}
-              className='art-link p-15-0'
+              className='ja-link p-15-0'
               download
               data-no-swup
               target='_blank'
@@ -78,9 +78,9 @@ const InfoBarModule = () => {
           {/* info bar header end */}
 
           {/* scroll frame */}
-          <div id='scrollbar2' className='art-scroll-frame'>
+          <div id='scrollbar2' className='ja-scroll-frame'>
             {/* info bar about */}
-            <div className='art-table p-15-15'>
+            <div className='ja-table p-15-15'>
               {/* about text */}
               <ul>
                 {AppData.profile.info.map((item, key) => (
@@ -94,28 +94,28 @@ const InfoBarModule = () => {
             {/* info bar about end */}
 
             {/* divider */}
-            <div className='art-ls-divider'></div>
+            <div className='ja-ls-divider'></div>
 
             {/* divider */}
-            <div className='art-ls-divider'></div>
+            <div className='ja-ls-divider'></div>
 
             {/* hard skills */}
-            <div className='art-hard-skills p-30-15'>
+            <div className='ja-hard-skills p-30-15'>
               {AppData.profile.skills.hard.map((item, key) => (
                 <div
-                  className='art-hard-skills-item'
+                  className='ja-hard-skills-item'
                   key={`profile-skills-hard-item-${key}`}
                 >
-                  <div className='art-skill-heading'>
+                  <div className='ja-skill-heading'>
                     {/* title */}
                     <h6>{item.label}</h6>
                   </div>
                   {/* progressbar frame */}
-                  <div className='art-line-progress'>
+                  <div className='ja-line-progress'>
                     {/* progressbar */}
                     <div
                       id={`lineprog${key + 1}`}
-                      className='art-line-progress-item'
+                      className='ja-line-progress-item'
                       data-value={item.value}
                     />
                   </div>
@@ -126,10 +126,10 @@ const InfoBarModule = () => {
             {/* language skills end */}
 
             {/* divider */}
-            <div className='art-ls-divider'></div>
+            <div className='ja-ls-divider'></div>
 
             {/* knowledge list */}
-            <ul className='art-knowledge-list p-15-0'>
+            <ul className='ja-knowledge-list p-15-0'>
               {AppData.profile.skills.knowledge.map((item, key) => (
                 <li key={`profile-skills-knowledge-item-${key}`}>{item.label}</li>
               ))}
@@ -141,7 +141,7 @@ const InfoBarModule = () => {
           {/* scroll frame end */}
 
           {/* sidebar social */}
-          <div className='art-ls-social'>
+          <div className='ja-ls-social'>
             {AppData.social.map((item, key) => (
               <a
                 href={item.link}

@@ -73,17 +73,17 @@ const ContactForm = () => {
             onSubmit={handleSubmit}
             id='contactForm'
             action={AppData.settings.formspreeURL}
-            className='art-contact-form'
+            className='ja-contact-form'
           >
             {/* form field */}
-            <div className='art-form-field'>
+            <div className='ja-form-field'>
               {/* name input */}
               <input
                 type='text'
                 placeholder='Name'
                 name='name'
                 id='name'
-                className='art-input'
+                className='ja-input'
                 required='required'
                 onChange={handleChange}
                 onBlur={handleBlur}
@@ -96,12 +96,12 @@ const ContactForm = () => {
             </div>
             {/* form field end */}
             {/* form field */}
-            <div className='art-form-field'>
+            <div className='ja-form-field'>
               {/* email input */}
               <input
                 type='email'
                 id='email'
-                className='art-input'
+                className='ja-input'
                 placeholder='Email'
                 name='email'
                 required='required'
@@ -116,13 +116,13 @@ const ContactForm = () => {
             </div>
             {/* form field end */}
             {/* form field */}
-            <div className='art-form-field'>
+            <div className='ja-form-field'>
               {/* message textarea */}
               <textarea
                 placeholder='Message'
                 name='message'
                 id='message'
-                className='art-input'
+                className='ja-input'
                 required='required'
                 onChange={handleChange}
                 onBlur={handleBlur}
@@ -135,12 +135,12 @@ const ContactForm = () => {
             </div>
             {/* form field end */}
             {/* button */}
-            <div className='art-submit-frame'>
-              <button className='art-btn art-btn-md art-submit' type='submit'>
+            <div className='ja-submit-frame'>
+              <button className='ja-btn ja-btn-md ja-submit' type='submit'>
                 <span>Send message</span>
               </button>
               {/* success */}
-              <div className='art-success'>
+              <div className='ja-success'>
                 Success <i className='fas fa-check'></i>
               </div>
             </div>

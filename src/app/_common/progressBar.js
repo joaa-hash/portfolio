@@ -1,7 +1,7 @@
 import ProgressBar from 'progressbar.js/dist/progressbar';
 
 export const ProgressBarAnim = () => {
-  const circles = document.querySelectorAll('.art-cirkle-progress');
+  const circles = document.querySelectorAll('.ja-cirkle-progress');
   const circleDelay = 2500;
 
   circles.forEach((item, index) => {
@@ -24,7 +24,7 @@ export const ProgressBarAnim = () => {
     bar.animate(item.dataset.value);
   });
 
-  const lines = document.querySelectorAll('.art-line-progress-item');
+  const lines = document.querySelectorAll('.ja-line-progress-item');
   const lineDelay = 2800;
 
   lines.forEach((item, index) => {

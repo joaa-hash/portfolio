@@ -11,9 +11,9 @@ const ServicesSection = () => {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4 dangerouslySetInnerHTML={{ __html: Data.title }} />
               </div>
@@ -29,18 +29,18 @@ const ServicesSection = () => {
               key={`services-item-${key}`}
             >
               {/* service */}
-              <div className='art-a art-service-icon-box'>
+              <div className='ja-a ja-service-icon-box'>
                 {/* service content */}
-                <div className='art-service-ib-content'>
+                <div className='ja-service-ib-content'>
                   {/* title */}
                   <h5 className='mb-15'>{item.title}</h5>
                   {/* text */}
                   <div className='mb-15'>{item.text}</div>
                   {/* button */}
-                  <div className='art-buttons-frame'>
+                  <div className='ja-buttons-frame'>
                     <Link
                       href={item.button.link}
-                      className='art-link art-color-link art-w-chevron'
+                      className='ja-link ja-color-link ja-w-chevron'
                     >
                       {item.button.label}
                     </Link>

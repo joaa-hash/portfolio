@@ -1,4 +1,4 @@
-.default--scrolling .art-scroll-frame {
+.default--scrolling .ja-scroll-frame {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   transform: translate3d(0, 0, 0);
@@ -9,7 +9,7 @@
   padding: 265px 0 50px;
 }
 
-.default--scrolling .art-sidebar #scrollbar2 {
+.default--scrolling .ja-sidebar #scrollbar2 {
   padding: 125px 0 30px;
 }
 
@@ -17,7 +17,7 @@ body.default--scrolling {
   background: #191923;
 }
 
-.default--scrolling .art-preloader {
+.default--scrolling .ja-preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -27,14 +27,14 @@ body.default--scrolling {
   height: auto !important;
 }
 
-.default--scrolling .art-app {
+.default--scrolling .ja-app {
   width: auto;
   height: auto;
   overflow: visible;
 }
 
-.default--scrolling .art-app:before,
-.default--scrolling .art-app:after {
+.default--scrolling .ja-app:before,
+.default--scrolling .ja-app:after {
   content: '';
   position: fixed;
   left: 0;
@@ -45,56 +45,52 @@ body.default--scrolling {
   z-index: 9999;
 }
 
-.default--scrolling .art-app:after {
+.default--scrolling .ja-app:after {
   top: auto;
   bottom: 0;
 }
 
-.default--scrolling.admin-bar .art-app:before {
+.default--scrolling.admin-bar .ja-app:before {
   top: 32px;
 }
 
-.default--scrolling.admin-bar .art-preloader {
+.default--scrolling.admin-bar .ja-preloader {
   top: 32px;
 }
 
-.default--scrolling .art-app .art-app-wrapper {
+.default--scrolling .ja-app .ja-app-wrapper {
   height: auto;
   overflow: visible;
   overflow-x: hidden;
 }
 
-.default--scrolling .art-app .art-app-wrapper .art-app-container .art-content,
-.default--scrolling.admin-bar .art-app .art-app-wrapper .art-app-container .art-content {
+.default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-content,
+.default--scrolling.admin-bar .ja-app .ja-app-wrapper .ja-app-container .ja-content {
   height: auto;
 }
 
-.default--scrolling .art-content .art-scroll-frame,
-.default--scrolling.admin-bar .art-content .art-scroll-frame {
+.default--scrolling .ja-content .ja-scroll-frame,
+.default--scrolling.admin-bar .ja-content .ja-scroll-frame {
   height: auto;
   overflow: visible;
 }
 
-.default--scrolling .art-app .art-app-wrapper .art-app-container .art-info-bar {
+.default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-info-bar {
   position: fixed;
 }
 
-.default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar-fix {
+.default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-menu-bar-fix {
   position: absolute;
   right: 0;
   width: 80px;
   height: calc(100vh - 30px);
 }
 
-.default--scrolling.admin-bar
-  .art-app
-  .art-app-wrapper
-  .art-app-container
-  .art-menu-bar-fix {
+.default--scrolling.admin-bar .ja-app .ja-app-wrapper .ja-app-container .ja-menu-bar-fix {
   height: calc(100vh - 62px);
 }
 
-.default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar {
+.default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-menu-bar {
   position: fixed;
   top: auto;
   bottom: auto;
@@ -102,7 +98,7 @@ body.default--scrolling {
   width: 80px;
 }
 
-.default--scrolling .art-app .art-app-wrapper .art-app-container:before {
+.default--scrolling .ja-app .ja-app-wrapper .ja-app-container:before {
   content: '';
   position: fixed;
   right: 0;
@@ -113,57 +109,53 @@ body.default--scrolling {
   background: #191923;
 }
 
-.default--scrolling .art-app .art-app-wrapper .art-app-container .art-content {
+.default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-content {
   padding-left: 290px;
 }
 
-.default--scrolling
-  .art-app
-  .art-app-wrapper
-  .art-app-container
-  .art-menu-bar.art-active {
+.default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-menu-bar.ja-active {
   width: 230px;
 }
 
 @media (max-width: 1032px) {
-  .default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar-fix {
+  .default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-menu-bar-fix {
     right: -80px;
   }
 
-  .default--scrolling .art-app .art-app-wrapper .art-app-container:before,
-  .default--scrolling .art-app:before,
-  .default--scrolling .art-app:after {
+  .default--scrolling .ja-app .ja-app-wrapper .ja-app-container:before,
+  .default--scrolling .ja-app:before,
+  .default--scrolling .ja-app:after {
     display: none;
   }
 
-  .default--scrolling .art-app .art-app-wrapper .art-app-container .art-content {
+  .default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-content {
     padding-left: 0;
     width: auto;
   }
 
-  .default--scrolling .art-app .art-app-wrapper {
+  .default--scrolling .ja-app .ja-app-wrapper {
     height: auto;
   }
 
-  .default--scrolling.admin-bar .art-app .art-app-wrapper {
+  .default--scrolling.admin-bar .ja-app .ja-app-wrapper {
     height: auto;
   }
 
   .default--scrolling
-    .art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-content
-    .art-scroll-frame {
+    .ja-app
+    .ja-app-wrapper
+    .ja-app-container
+    .ja-content
+    .ja-scroll-frame {
     height: auto;
   }
 
   .default--scrolling.admin-bar
-    .art-app
-    .art-app-wrapper
-    .art-app-container
-    .art-content
-    .art-scroll-frame {
+    .ja-app
+    .ja-app-wrapper
+    .ja-app-container
+    .ja-content
+    .ja-scroll-frame {
     height: auto;
   }
 
@@ -171,29 +163,29 @@ body.default--scrolling {
     overflow: visible;
   }
 
-  .default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar {
+  .default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-menu-bar {
     height: 100vh !important;
   }
 
-  .default--scrolling .art-app .art-app-wrapper .art-app-container .art-info-bar {
+  .default--scrolling .ja-app .ja-app-wrapper .ja-app-container .ja-info-bar {
     height: 100vh !important;
   }
 
-  .default--scrolling.fixed .art-app .art-app-wrapper .art-app-container .art-info-bar {
+  .default--scrolling.fixed .ja-app .ja-app-wrapper .ja-app-container .ja-info-bar {
     top: 0;
   }
 
-  .default--scrolling.fixed .art-app .art-mobile-top-bar {
+  .default--scrolling.fixed .ja-app .ja-mobile-top-bar {
     top: 0;
   }
 
-  .default--scrolling.fixed .art-app .art-app-wrapper .art-app-container .art-menu-bar {
+  .default--scrolling.fixed .ja-app .ja-app-wrapper .ja-app-container .ja-menu-bar {
     top: 0;
   }
 }
 
-.default--scrolling .art-content .art-scroll-frame,
-.default--scrolling.admin-bar .art-content .art-scroll-frame {
+.default--scrolling .ja-content .ja-scroll-frame,
+.default--scrolling.admin-bar .ja-content .ja-scroll-frame {
   transform: none !important;
   -webkit-transform: none !important;
 }
@@ -204,7 +196,7 @@ body.default--scrolling {
   }
 }
 
-body .art-content.art-active {
+body .ja-content.ja-active {
   overflow: hidden !important;
   height: 100vh !important;
 }

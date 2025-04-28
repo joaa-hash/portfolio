@@ -51,15 +51,15 @@ h6 {
   font-weight: 400;
 }
 /* ----- text config ----- */
-.art-sm-text {
+.ja-sm-text {
   font-size: 12px;
 }
 
-.art-lg-text {
+.ja-lg-text {
   font-size: 16px;
 }
 
-.art-white {
+.ja-white {
   color: $text-color-1;
 }
 /* ----- container ----- */
@@ -69,7 +69,7 @@ h6 {
   position: relative;
 }
 /* ----- buttons frame ----- */
-.art-buttons-frame {
+.ja-buttons-frame {
   flex: 1;
   display: flex;
   align-items: flex-end;
@@ -79,21 +79,21 @@ h6 {
   }
 }
 /* ----- suptitle ----- */
-.art-el-suptitle {
+.ja-el-suptitle {
   margin-top: 5px;
   color: $text-color-3;
   font-style: italic;
   font-size: 12px;
 }
 /* ----- divider ----- */
-.art-ls-divider {
+.ja-ls-divider {
   background: $text-color-3;
   width: 100%;
   height: 1px;
   opacity: 0.3;
 }
 /* ----- image defaults ----- */
-.art-img-default {
+.ja-img-default {
   width: 100%;
   box-shadow: $shadow-1;
 }
@@ -113,7 +113,7 @@ a {
   }
 }
 /* ----- table ----- */
-.art-table {
+.ja-table {
   color: $text-color-2;
 
   & ul {
@@ -180,7 +180,7 @@ blockquote {
   }
 }
 /* ----- list ----- */
-.art-custom-list {
+.ja-custom-list {
   padding-left: 25px;
 
   & li {
@@ -208,8 +208,8 @@ blockquote {
 link
 
 ------------------------------ */
-.art-link,
-a.art-link {
+.ja-link,
+a.ja-link {
   position: relative;
   text-transform: uppercase;
   font-size: 12px;
@@ -228,7 +228,7 @@ a.art-link {
     text-shadow: $text-neon;
   }
 
-  &.art-white-link {
+  &.ja-white-link {
     color: $text-color-1;
 
     &:hover {
@@ -238,7 +238,7 @@ a.art-link {
     }
   }
 
-  &.art-color-link {
+  &.ja-color-link {
     color: $main-color;
 
     &:hover {
@@ -248,7 +248,7 @@ a.art-link {
     }
   }
 
-  &.art-w-chevron {
+  &.ja-w-chevron {
     padding-right: 10px;
     &:after {
       font-family: 'Font Awesome 5 free';
@@ -284,11 +284,11 @@ a.art-link {
     margin-left: 3px;
   }
 
-  &.art-left-link {
+  &.ja-left-link {
     padding-left: 10px;
     padding-right: 0;
 
-    &.art-w-chevron {
+    &.ja-w-chevron {
       &:after {
         content: '\f053';
         left: 0;
@@ -308,7 +308,7 @@ a.art-link {
 button
 
 ------------------------------ */
-.art-btn {
+.ja-btn {
   text-transform: uppercase;
   box-shadow: $shadow-2;
   color: $info-bar-1-color;
@@ -326,13 +326,13 @@ button
     transition: $tr-sm;
   }
 
-  &.art-btn-md {
+  &.ja-btn-md {
     height: 45px;
     font-size: 12px;
     padding: 0 35px;
   }
 
-  &.art-btn-sm {
+  &.ja-btn-sm {
     height: 40px;
     font-size: 12px;
     padding: 0 30px;
@@ -440,7 +440,7 @@ popup content
   .popup-arrow path {
     fill: rgb(43, 43, 53);
   }
-  .art-testimonial {
+  .ja-testimonial {
     width: 600px;
     max-width: 100%;
   }

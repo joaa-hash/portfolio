@@ -12,18 +12,18 @@ const ImageFull = ({ src, title }) => {
           {/* col */}
           <div className='col-lg-12'>
             {/* project cover */}
-            <div className='art-a art-project-cover'>
+            <div className='ja-a ja-project-cover'>
               {/* item frame */}
               <a
                 data-fancybox='gallery'
                 data-no-swup
                 href={src}
-                className='art-portfolio-item-frame art-horizontal'
+                className='ja-portfolio-item-frame ja-horizontal'
               >
                 {/* img */}
                 <img src={src} alt={title} />
                 {/* zoom icon */}
-                <span className='art-item-hover'>
+                <span className='ja-item-hover'>
                   <i className='fas fa-expand'></i>
                 </span>
               </a>

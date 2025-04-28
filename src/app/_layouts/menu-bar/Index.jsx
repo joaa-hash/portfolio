@@ -24,7 +24,7 @@ const MenuBarModule = () => {
     // close mobile menu
     setToggle(false);
     if (toggle) {
-      document.querySelector('.art-content').classList.remove('art-active');
+      document.querySelector('.ja-content').classList.remove('ja-active');
     }
 
     AppData.header.menu.map((item) => menuLabels(item));
@@ -37,24 +37,24 @@ const MenuBarModule = () => {
   const menuOpen = () => {
     setToggle(!toggle);
     if (!toggle) {
-      document.querySelector('.art-content').classList.add('art-active');
+      document.querySelector('.ja-content').classList.add('ja-active');
     } else {
-      document.querySelector('.art-content').classList.remove('art-active');
+      document.querySelector('.ja-content').classList.remove('ja-active');
     }
   };
 
   return (
     <>
       {/* menu bar */}
-      <div className='art-menu-bar-fix'>
-        <div className={`art-menu-bar ${toggle ? 'art-active' : ''}`}>
+      <div className='ja-menu-bar-fix'>
+        <div className={`ja-menu-bar ${toggle ? 'ja-active' : ''}`}>
           {/* menu bar frame */}
-          <div className='art-menu-bar-frame'>
+          <div className='ja-menu-bar-frame'>
             {/* menu bar header */}
-            <div className='art-menu-bar-header'>
+            <div className='ja-menu-bar-header'>
               {/* menu bar button */}
               <div
-                className={`art-menu-bar-btn ${toggle ? 'art-active' : ''}`}
+                className={`ja-menu-bar-btn ${toggle ? 'ja-active' : ''}`}
                 onClick={() => menuOpen()}
               >
                 {/* icon */}
@@ -65,7 +65,7 @@ const MenuBarModule = () => {
             {/* menu bar header end */}
 
             {/* scroll frame */}
-            <div className='art-scroll-frame'>
+            <div className='ja-scroll-frame'>
               {/* menu */}
               <nav id='swupMenu'>
                 {/* menu list */}
@@ -90,7 +90,7 @@ const MenuBarModule = () => {
                       {item.children.length > 0 && (
                         <ul
                           className={
-                            activeSubMenu === index ? 'sub-menu art-active' : 'sub-menu'
+                            activeSubMenu === index ? 'sub-menu ja-active' : 'sub-menu'
                           }
                         >
                           {item.children.map((subitem, subIndex) => (
@@ -117,7 +117,7 @@ const MenuBarModule = () => {
             {/* scroll frame end */}
 
             {/* current page title */}
-            <div className='art-current-page'>
+            <div className='ja-current-page'>
               {curLabel !== 0 ? (
                 <Link href={curLabel.link}>{curLabel.label}</Link>
               ) : (

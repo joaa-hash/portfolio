@@ -10,20 +10,20 @@ const PaginatedBlogPosts = ({ items, columns = 2 }) => {
           key={`blog-item-${index}`}
         >
           {/* blog post card */}
-          <div className='art-a art-blog-card'>
+          <div className='ja-a ja-blog-card'>
             {/* post cover */}
-            <Link href={`/blog/${item.id}`} className='art-port-cover'>
+            <Link href={`/blog/${item.id}`} className='ja-port-cover'>
               {/* img */}
               <img src={item.image} alt={item.title} />
             </Link>
             {/* post cover end */}
             {/* post description */}
-            <div className='art-post-description'>
-              <div className='art-project-category mb-15'>
-                <span className='art-el-date'>
+            <div className='ja-post-description'>
+              <div className='ja-project-category mb-15'>
+                <span className='ja-el-date'>
                   <Date dateString={item.date} />
                 </span>{' '}
-                / <span className='art-el-category'>{item.categories.join(', ')}</span>
+                / <span className='ja-el-category'>{item.categories.join(', ')}</span>
               </div>
               {/* title */}
               <Link href={`/blog/${item.id}`}>
@@ -34,7 +34,7 @@ const PaginatedBlogPosts = ({ items, columns = 2 }) => {
               {/* link */}
               <Link
                 href={`/blog/${item.id}`}
-                className='art-link art-color-link art-w-chevron'
+                className='ja-link ja-color-link ja-w-chevron'
               >
                 Read more
               </Link>
