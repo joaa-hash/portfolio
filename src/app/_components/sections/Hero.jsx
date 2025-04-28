@@ -42,8 +42,8 @@ const HeroOne = () => {
                     />
                     <ReactTyped
                       strings={Data.subtitle.rotates}
-                      typeSpeed={100}
-                      backSpeed={50}
+                      typeSpeed={65}
+                      backSpeed={30}
                       loop
                     />
                     <span dangerouslySetInnerHTML={{ __html: Data.subtitle.end }} />
@@ -56,12 +56,6 @@ const HeroOne = () => {
                   </div>
                 </div>
                 {/* main title end */}
-                {/* photo */}
-                <img
-                  src={Data.photo.url}
-                  className='art-banner-photo'
-                  alt={Data.photo.alt}
-                />
               </div>
               {/* banner overlay end */}
             </div>
