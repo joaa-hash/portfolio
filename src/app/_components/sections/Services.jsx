@@ -24,7 +24,10 @@ const ServicesSection = () => {
           {/* col end */}
 
           {Data.items.map((item, key) => (
-            <div className='col-lg-4 col-md-6' key={`services-item-${key}`}>
+            <div
+              className='col-lg-4 col-md-6 service-box-wrapper'
+              key={`services-item-${key}`}
+            >
               {/* service */}
               <div className='art-a art-service-icon-box'>
                 {/* service content */}
