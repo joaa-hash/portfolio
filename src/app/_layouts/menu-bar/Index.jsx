@@ -72,7 +72,9 @@ const MenuBarModule = () => {
                 <ul className='main-menu'>
                   {AppData.header.menu.map((item, index) => (
                     <li
-                      className={`menu-item ${item.children.length > 0 ? 'menu-item-has-children' : ''} ${isPathActive(item.link) ? 'current-menu-item' : ''}`}
+                      className={`menu-item ${
+                        item.children.length > 0 ? 'menu-item-has-children' : ''
+                      } ${isPathActive(item.link) ? 'current-menu-item' : ''}`}
                       key={`header-menu-item-${index}`}
                     >
                       <Link
@@ -111,19 +113,6 @@ const MenuBarModule = () => {
                 {/* menu list end */}
               </nav>
               {/* menu end */}
-
-              {/* language change */}
-              <ul className='art-language-change'>
-                {/* language item */}
-                <li>
-                  <a href='?lang=fr'>FR</a>
-                </li>
-                {/* language item */}
-                <li className='art-active-lang'>
-                  <a href='?lang=en'>EN</a>
-                </li>
-              </ul>
-              {/* language change end */}
             </div>
             {/* scroll frame end */}
 
