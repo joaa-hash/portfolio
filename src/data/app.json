@@ -183,19 +183,14 @@
       "title": "Linkedin"
     },
     {
-      "link": "https://dribbble.com",
-      "icon": "fab fa-dribbble",
-      "title": "Dribbble"
-    },
-    {
-      "link": "https://behance.com",
-      "icon": "fab fa-behance",
-      "title": "Behance"
-    },
-    {
-      "link": "https://github.com",
+      "link": "https://github.com/joaa-hash",
       "icon": "fab fa-github",
       "title": "Github"
+    },
+    {
+      "link": "https://upwork.com",
+      "icon": "fab6 fa-upwork",
+      "title": "Upwork"
     },
     {
       "link": "https://twitter.com",
