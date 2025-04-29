@@ -11,9 +11,9 @@ const ContactSection = () => {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4>{Data.title}</h4>
               </div>
@@ -22,7 +22,7 @@ const ContactSection = () => {
             {/* section title end */}
 
             {/* contact form frame */}
-            <div className='art-a art-card'>
+            <div className='ja-a ja-card'>
               <ContactForm />
             </div>
             {/* contact form frame end */}

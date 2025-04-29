@@ -13,11 +13,11 @@ const numberAnimate = (render, from, to, duration, timeFx) => {
 };
 
 export const CountersBarAnim = () => {
-  const counters = document.querySelectorAll('.art-counter');
+  const counters = document.querySelectorAll('.ja-counter');
 
   // counters
   anime({
-    targets: '.art-counter',
+    targets: '.ja-counter',
     delay: 500,
     opacity: [1, 1],
     complete: function (anim) {

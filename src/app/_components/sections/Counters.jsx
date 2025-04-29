@@ -18,14 +18,14 @@ const CountersSection = () => {
           {Data.items.map((item, key) => (
             <div className='col-md-3 col-6' key={`counters-item-${key}`}>
               {/* couner frame */}
-              <div className='art-counter-frame'>
+              <div className='ja-counter-frame'>
                 {/* counter */}
-                <div className='art-counter-box'>
+                <div className='ja-counter-box'>
                   {/* counter number */}
-                  <span className='art-counter' data-count={item.value}>
+                  <span className='ja-counter' data-count={item.value}>
                     0
                   </span>
-                  <span className='art-counter-plus'>{item.valueAfter}</span>
+                  <span className='ja-counter-plus'>{item.valueAfter}</span>
                 </div>
                 {/* counter end */}
                 {/* title */}

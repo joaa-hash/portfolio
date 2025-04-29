@@ -2,31 +2,31 @@
   "title": "Recommendations",
   "items": [
     {
-      "name": "Paul Trueman",
+      "name": "Micah Stone",
       "image": "/img/testimonials/face-1.jpg",
-      "role": "Template author",
-      "text": "Working with Josue has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Josue! This is easily a 5 star freelancer.",
+      "role": "Founder of Plaza",
+      "text": "Josue was great to work with. He completed the project promptly and accurately. We are very happy with the results. His communication was excellent as well.\n\nWe look forward to working with him again on other projects in the future.",
       "rating": 5
     },
     {
-      "name": "Emma Miller",
+      "name": "Wilfred Tso",
       "image": "/img/testimonials/face-2.jpg",
-      "role": "SMM Manager",
-      "text": "Working with Josue has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Josue! This is easily a 5 star freelancer.",
+      "role": "Founding Engineer",
+      "text": "We enjoyed working with Josue! Good communication and great technical delivery.",
       "rating": 5
     },
     {
-      "name": "Trevor Virtue",
+      "name": "Melissa Tressler",
       "image": "/img/testimonials/face-3.jpg",
-      "role": "Designer",
-      "text": "Working with Josue has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Josue! This is easily a 5 star freelancer.",
+      "role": "Developer Relations",
+      "text": "Josue completed the work successfully and demonstrated strong skills. He is a talented and hard working developer. We look forward to working with him on a long term basis. Highly recommended!",
       "rating": 5
     },
     {
-      "name": "Paul Trueman",
+      "name": "Nathan Black",
       "image": "/img/testimonials/face-4.jpg",
-      "role": "Template author",
-      "text": "Working with Josue has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Josue! This is easily a 5 star freelancer.",
+      "role": "Senior Project Manager",
+      "text": "Working with Josue was an absolute pleasure. They delivered high quality work ahead of schedule and showed great attention to detail. Their expertise in Python and Fast API truly made a difference. Looking forward to working together again!",
       "rating": 5
     }
   ]

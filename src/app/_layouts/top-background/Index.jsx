@@ -4,15 +4,15 @@ const TopBackgroundModule = () => {
   return (
     <>
       {/* curtain */}
-      <div className='art-curtain'></div>
+      <div className='ja-curtain'></div>
 
       {/* top background */}
       <div
-        className='art-top-bg'
+        className='ja-top-bg'
         style={{ backgroundImage: 'url(' + AppData.header.topBackground + ')' }}
       >
         {/* overlay */}
-        <div className='art-top-bg-overlay'></div>
+        <div className='ja-top-bg-overlay'></div>
         {/* overlay end */}
       </div>
       {/* top background end */}

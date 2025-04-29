@@ -10,9 +10,9 @@ const ContactInfoSection = () => {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4>{Data.title}</h4>
               </div>
@@ -25,8 +25,8 @@ const ContactInfoSection = () => {
           {Data.items.map((item, key) => (
             <div className='col-lg-4' key={`contact-info-item-${key}`}>
               {/* contact card */}
-              <div className='art-a art-card'>
-                <div className='art-table p-15-15'>
+              <div className='ja-a ja-card'>
+                <div className='ja-table p-15-15'>
                   <ul>
                     {item.info.map((info_item, info_key) => (
                       <li key={`contact-info-item-${key}-info-${info_key}`}>

@@ -62,16 +62,16 @@ async function PostsDetail({ params }) {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4>{postData.title}</h4>
               </div>
               {/* title frame end */}
               {/* right frame */}
-              <div className='art-right-frame'>
-                <div className='art-project-category'>
+              <div className='ja-right-frame'>
+                <div className='ja-project-category'>
                   {postData.categories.join(', ')}
                 </div>
               </div>
@@ -96,9 +96,9 @@ async function PostsDetail({ params }) {
           {/* col */}
           <div className='col-lg-8'>
             {/* post text */}
-            <div className='art-a art-card'>
+            <div className='ja-a ja-card'>
               <div
-                className='art-text'
+                className='ja-text'
                 dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
               />
             </div>
@@ -108,9 +108,9 @@ async function PostsDetail({ params }) {
 
           {/* col */}
           <div className='col-lg-4'>
-            <div className='art-a art-card'>
+            <div className='ja-a ja-card'>
               {/* table */}
-              <div className='art-table p-15-15'>
+              <div className='ja-table p-15-15'>
                 <ul>
                   <li>
                     <h6>Date:</h6>
@@ -122,7 +122,9 @@ async function PostsDetail({ params }) {
                     <h6>Author:</h6>
                     <span>
                       <Link
-                        href={`/blog/author/${postData.author.toLowerCase().replace(' ', '-')}`}
+                        href={`/blog/author/${postData.author
+                          .toLowerCase()
+                          .replace(' ', '-')}`}
                       >
                         {authorData.name}
                       </Link>
@@ -134,7 +136,9 @@ async function PostsDetail({ params }) {
                       {postData.categories.map((item, key) => (
                         <span key={`post-category-item-${key}`}>
                           <Link
-                            href={`/blog/category/${item.toLowerCase().replace(' ', '-')}`}
+                            href={`/blog/category/${item
+                              .toLowerCase()
+                              .replace(' ', '-')}`}
                           >
                             {item}
                           </Link>
@@ -176,18 +180,18 @@ async function PostsDetail({ params }) {
           {/* col */}
           <div className='col-lg-12'>
             {/* pagination */}
-            <div className='art-a art-pagination'>
+            <div className='ja-a ja-pagination'>
               {/* button */}
               {prev.id != 0 && (
                 <Link
                   href={`/blog/${prev.id}`}
-                  className='art-link art-color-link art-w-chevron art-left-link'
+                  className='ja-link ja-color-link ja-w-chevron ja-left-link'
                 >
                   <span>Previous post</span>
                 </Link>
               )}
-              <div className='art-pagination-center art-m-hidden'>
-                <Link className='art-link' href='/blog'>
+              <div className='ja-pagination-center ja-m-hidden'>
+                <Link className='ja-link' href='/blog'>
                   All publications
                 </Link>
               </div>
@@ -195,7 +199,7 @@ async function PostsDetail({ params }) {
               {next.id != 0 && (
                 <Link
                   href={`/blog/${next.id}`}
-                  className='art-link art-color-link art-w-chevron'
+                  className='ja-link ja-color-link ja-w-chevron'
                 >
                   <span>Next post</span>
                 </Link>

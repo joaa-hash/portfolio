@@ -78,16 +78,16 @@ async function ProjectDetail({ params }) {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4>{postData.title}</h4>
               </div>
               {/* title frame end */}
               {/* right frame */}
-              <div className='art-right-frame'>
-                <div className='art-project-category'>{postData.category}</div>
+              <div className='ja-right-frame'>
+                <div className='ja-project-category'>{postData.category}</div>
               </div>
               {/* right frame end */}
             </div>
@@ -116,9 +116,9 @@ async function ProjectDetail({ params }) {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4>{postData.details.title}</h4>
               </div>
@@ -130,7 +130,7 @@ async function ProjectDetail({ params }) {
 
           {/* col */}
           <div className='col-lg-8'>
-            <div className='art-a art-card art-fluid-card'>
+            <div className='ja-a ja-card ja-fluid-card'>
               <h5 className='mb-15'>{postData.description.title}</h5>
               <div
                 className='mb-15'
@@ -138,10 +138,10 @@ async function ProjectDetail({ params }) {
               />
               {/* button */}
               {postData.description.button !== undefined && (
-                <div className='art-buttons-frame'>
+                <div className='ja-buttons-frame'>
                   <a
                     href={postData.description.button.label}
-                    className='art-link art-color-link art-w-chevron'
+                    className='ja-link ja-color-link ja-w-chevron'
                     target='_blank'
                     data-no-swup
                   >
@@ -155,9 +155,9 @@ async function ProjectDetail({ params }) {
 
           {/* col */}
           <div className='col-lg-4'>
-            <div className='art-a art-card'>
+            <div className='ja-a ja-card'>
               {/* table */}
-              <div className='art-table p-15-15'>
+              <div className='ja-table p-15-15'>
                 <ul>
                   {postData.details.items.map((item, key) => (
                     <li key={`project-details-item-${key}`}>
@@ -194,19 +194,19 @@ async function ProjectDetail({ params }) {
           <div className='col-lg-12'>
             {/* call to action */}
             <div
-              className='art-a art-banner'
+              className='ja-a ja-banner'
               style={{ backgroundImage: 'url(/img/bg.jpg)' }}
             >
               {/* overlay */}
-              <div className='art-banner-overlay'>
+              <div className='ja-banner-overlay'>
                 {/* main title */}
-                <div className='art-banner-title text-center'>
+                <div className='ja-banner-title text-center'>
                   {/* title */}
                   <h1 className='mb-15'>Ready to order your project?</h1>
                   {/* suptitle */}
-                  <div className='art-lg-text art-code mb-25'>Let's work together!</div>
+                  <div className='ja-lg-text ja-code mb-25'>Let's work together!</div>
                   {/* button */}
-                  <Link href='/contact' className='art-btn art-btn-md'>
+                  <Link href='/contact' className='ja-btn ja-btn-md'>
                     <span>Contact me</span>
                   </Link>
                 </div>
@@ -217,18 +217,18 @@ async function ProjectDetail({ params }) {
             {/* call to action end  */}
 
             {/* projects navigation */}
-            <div className='art-a art-pagination'>
+            <div className='ja-a ja-pagination'>
               {/* button */}
               {prev.id != 0 && (
                 <Link
                   href={`/projects/${prev.id}`}
-                  className='art-link art-color-link art-w-chevron art-left-link'
+                  className='ja-link ja-color-link ja-w-chevron ja-left-link'
                 >
                   <span>Previous project</span>
                 </Link>
               )}
-              <div className='art-pagination-center art-m-hidden'>
-                <Link className='art-link' href='/projects'>
+              <div className='ja-pagination-center ja-m-hidden'>
+                <Link className='ja-link' href='/projects'>
                   All projects
                 </Link>
               </div>
@@ -236,7 +236,7 @@ async function ProjectDetail({ params }) {
               {next.id != 0 && (
                 <Link
                   href={`/projects/${next.id}`}
-                  className='art-link art-color-link art-w-chevron'
+                  className='ja-link ja-color-link ja-w-chevron'
                 >
                   <span>Next project</span>
                 </Link>

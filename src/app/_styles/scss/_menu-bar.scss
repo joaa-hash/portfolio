@@ -3,7 +3,7 @@
 menu bar
 
 ------------------------------ */
-.art-menu-bar {
+.ja-menu-bar {
   /* ----- main menu  ----- */
   & nav {
     display: flex;
@@ -152,7 +152,7 @@ menu bar
             margin-bottom: 15px;
           }
 
-          &.art-active {
+          &.ja-active {
             pointer-events: all;
             max-height: 500px;
 
@@ -163,7 +163,7 @@ menu bar
         }
 
         &:hover,
-        &.art-active {
+        &.ja-active {
           &.menu-item-has-children:after {
             transform: rotate(90deg) translateX(0px) translateY(-2.5px);
           }
@@ -200,7 +200,7 @@ menu bar
     }
   }
   /* ----- language change  ----- */
-  & .art-language-change {
+  & .ja-language-change {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -231,7 +231,7 @@ menu bar
         transition: $tr-md;
       }
 
-      &.art-active-lang {
+      &.ja-active-lang {
         background-color: $main-color;
         box-shadow: $shadow-1;
 
@@ -246,7 +246,7 @@ menu bar
     }
   }
 
-  &.art-active {
+  &.ja-active {
     & nav {
       & .menu-item {
         opacity: 1;
@@ -255,7 +255,7 @@ menu bar
     }
   }
   /* ----- current page title ----- */
-  .art-current-page {
+  .ja-current-page {
     width: 200px;
     transform: rotate(90deg);
     color: $text-color-1;
@@ -284,8 +284,8 @@ menu bar
     }
   }
 
-  &.art-active {
-    .art-current-page {
+  &.ja-active {
+    .ja-current-page {
       opacity: 0;
     }
   }

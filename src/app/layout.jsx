@@ -45,7 +45,7 @@ const Layouts = ({ children }) => {
     <html lang='en' className={`${primary_font.variable} ${secondary_font.variable}`}>
       <body className='default--scrolling'>
         {/* app */}
-        <div className='art-app'>{children}</div>
+        <div className='ja-app'>{children}</div>
         {/* app end */}
       </body>
     </html>

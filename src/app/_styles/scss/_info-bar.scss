@@ -4,10 +4,10 @@ info bar
 
 ------------------------------ */
 
-.art-info-bar {
+.ja-info-bar {
   padding: 0 15px;
   /* ----- header ----- */
-  & .art-header {
+  & .ja-header {
     position: absolute;
     left: 0;
     top: 0;
@@ -19,7 +19,7 @@ info bar
     text-align: center;
     box-shadow: $shadow-2;
 
-    & .art-avatar {
+    & .ja-avatar {
       width: 90px;
       height: 90px;
       margin: 0 auto;
@@ -27,7 +27,7 @@ info bar
       position: relative;
       margin-bottom: 15px;
 
-      & .art-avatar-curtain {
+      & .ja-avatar-curtain {
         position: relative;
         width: 100%;
         height: 100%;
@@ -79,7 +79,7 @@ info bar
         }
       }
 
-      & .art-lamp-light {
+      & .ja-lamp-light {
         z-index: 2;
 
         &:before {
@@ -105,7 +105,7 @@ info bar
           }
         }
 
-        & .art-available-lamp {
+        & .ja-available-lamp {
           position: absolute;
           bottom: 3px;
           right: 5px;
@@ -167,13 +167,13 @@ info bar
           }
         }
 
-        &.art-not-available {
+        &.ja-not-available {
           &:before {
             opacity: 0;
             animation: none;
           }
 
-          & .art-available-lamp {
+          & .ja-available-lamp {
             background: red;
 
             &:after {
@@ -185,7 +185,7 @@ info bar
     }
   }
   /* ----- name ----- */
-  .art-name {
+  .ja-name {
     color: $text-color-1;
     transition: $tr-md;
 
@@ -201,17 +201,17 @@ info bar
     }
   }
   /* ----- language skills ----- */
-  & .art-lang-skills {
+  & .ja-lang-skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-    & .art-lang-skills-item {
+    & .ja-lang-skills-item {
       width: 33.33333%;
       text-align: center;
       margin-bottom: 15px;
 
-      & .art-cirkle-progress {
+      & .ja-cirkle-progress {
         width: 65%;
         margin: 0 auto 15px;
 
@@ -232,17 +232,17 @@ info bar
     }
   }
   /* ----- hard skills ----- */
-  & .art-hard-skills {
-    & .art-hard-skills-item {
+  & .ja-hard-skills {
+    & .ja-hard-skills-item {
       margin-bottom: 15px;
       position: relative;
 
-      & .art-skill-heading {
+      & .ja-skill-heading {
         display: flex;
         justify-content: space-between;
       }
 
-      & .art-line-progress {
+      & .ja-line-progress {
         width: 100%;
 
         & .progressbar-text {
@@ -256,7 +256,7 @@ info bar
     }
   }
   /* ----- knowledge ----- */
-  & .art-knowledge-list {
+  & .ja-knowledge-list {
     padding-left: 0;
 
     & li {
@@ -280,13 +280,13 @@ info bar
     }
   }
   /* ----- info bar links ----- */
-  & .art-links-frame {
+  & .ja-links-frame {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
   }
   /* ----- social links ----- */
-  & .art-ls-social {
+  & .ja-ls-social {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -314,7 +314,7 @@ info bar
 
 /* ----- progresbar color ----- */
 
-.art-line-progress {
+.ja-line-progress {
   & path {
     &:first-child {
       stroke: $deep-color;
@@ -325,7 +325,7 @@ info bar
   }
 }
 
-.art-cirkle-progress {
+.ja-cirkle-progress {
   & path {
     &:first-child {
       stroke: $deep-color;

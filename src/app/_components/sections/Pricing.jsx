@@ -11,9 +11,9 @@ const PricingSection = () => {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4 dangerouslySetInnerHTML={{ __html: Data.title }} />
               </div>
@@ -28,18 +28,16 @@ const PricingSection = () => {
               {/* price */}
               <div
                 className={
-                  item.popular != 1
-                    ? 'art-a art-price'
-                    : 'art-a art-price art-popular-price'
+                  item.popular != 1 ? 'ja-a ja-price' : 'ja-a ja-price ja-popular-price'
                 }
               >
                 {/* price body */}
-                <div className='art-price-body'>
+                <div className='ja-price-body'>
                   <h5 className='mb-30'>{item.title}</h5>
 
                   {/* price cost */}
-                  <div className='art-price-cost'>
-                    <div className='art-number'>
+                  <div className='ja-price-cost'>
+                    <div className='ja-number'>
                       <span>{item.price.before}</span>
                       <div dangerouslySetInnerHTML={{ __html: item.price.value }} />
                       <span>{item.price.after}</span>
@@ -47,11 +45,11 @@ const PricingSection = () => {
                   </div>
                   {/* price cost end */}
                   {/* price list */}
-                  <ul className='art-price-list'>
+                  <ul className='ja-price-list'>
                     {item.list.map((list_item, list_key) => (
                       <li
                         key={`pricing-item-${key}-list-${list_key}`}
-                        className={list_item.active ? '' : 'art-empty-item'}
+                        className={list_item.active ? '' : 'ja-empty-item'}
                       >
                         {list_item.value}
                       </li>
@@ -61,12 +59,12 @@ const PricingSection = () => {
                   {/* button */}
                   <Link
                     href={item.button.link}
-                    className='art-link art-color-link art-w-chevron'
+                    className='ja-link ja-color-link ja-w-chevron'
                   >
                     {item.button.label}
                   </Link>
                   <div
-                    className='art-asterisk'
+                    className='ja-asterisk'
                     dangerouslySetInnerHTML={{ __html: item.info }}
                   />
                 </div>

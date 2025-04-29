@@ -17,9 +17,9 @@ const LatestPostsSlider = ({ posts }) => {
           {/* col */}
           <div className='col-lg-12'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4 dangerouslySetInnerHTML={{ __html: Data.title }} />
               </div>
@@ -34,7 +34,7 @@ const LatestPostsSlider = ({ posts }) => {
             {/* slider */}
             <Swiper
               {...SliderProps.milBlogSlider}
-              className='swiper-container art-blog-slider'
+              className='swiper-container ja-blog-slider'
               style={{ overflow: 'visible' }}
             >
               {posts.slice(0, Data.numOfItems).map((item, key) => (
@@ -43,17 +43,17 @@ const LatestPostsSlider = ({ posts }) => {
                   key={`latest-posts-slider-item-${key}`}
                 >
                   {/* blog post card */}
-                  <div className='art-a art-blog-card'>
+                  <div className='ja-a ja-blog-card'>
                     {/* post cover */}
-                    <Link href={`/blog/${item.id}`} className='art-port-cover'>
+                    <Link href={`/blog/${item.id}`} className='ja-port-cover'>
                       {/* img */}
                       <img src={item.image} alt={item.title} />
                     </Link>
                     {/* post cover end */}
                     {/* post description */}
-                    <div className='art-post-description'>
+                    <div className='ja-post-description'>
                       {/* date */}
-                      <div className='art-date'>
+                      <div className='ja-date'>
                         <Date dateString={item.date} /> / {item.categories[0]}
                       </div>
                       {/* title */}
@@ -65,7 +65,7 @@ const LatestPostsSlider = ({ posts }) => {
                       {/* link */}
                       <Link
                         href={`/blog/${item.id}`}
-                        className='art-link art-color-link art-w-chevron'
+                        className='ja-link ja-color-link ja-w-chevron'
                       >
                         Read more
                       </Link>
@@ -83,24 +83,24 @@ const LatestPostsSlider = ({ posts }) => {
           {/* col */}
           <div className='col-lg-12'>
             {/* slider navigation */}
-            <div className='art-slider-navigation art-blog-slider-navigation'>
+            <div className='ja-slider-navigation ja-blog-slider-navigation'>
               {/* left side */}
-              <div className='art-sn-left'>
+              <div className='ja-sn-left'>
                 {/* slider pagination */}
                 <div className='swiper-pagination'></div>
               </div>
               {/* left side end */}
 
               {/* right side */}
-              <div className='art-sn-right'>
+              <div className='ja-sn-right'>
                 {/* slider navigation */}
-                <div className='art-slider-nav-frame'>
+                <div className='ja-slider-nav-frame'>
                   {/* prev */}
-                  <div className='art-slider-nav art-blog-swiper-prev'>
+                  <div className='ja-slider-nav ja-blog-swiper-prev'>
                     <i className='fas fa-chevron-left'></i>
                   </div>
                   {/* next */}
-                  <div className='art-slider-nav art-blog-swiper-next'>
+                  <div className='ja-slider-nav ja-blog-swiper-next'>
                     <i className='fas fa-chevron-right'></i>
                   </div>
                 </div>

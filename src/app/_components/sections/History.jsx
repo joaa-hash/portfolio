@@ -14,9 +14,9 @@ const HistorySection = ({ paddingTop = 0 }) => {
           {/* col */}
           <div className='col-lg-6'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4 dangerouslySetInnerHTML={{ __html: Data.col1.title }} />
               </div>
@@ -25,20 +25,20 @@ const HistorySection = ({ paddingTop = 0 }) => {
             {/* section title end */}
 
             {/* timeline */}
-            <div className='art-timeline art-gallery' id='history'>
+            <div className='ja-timeline ja-gallery' id='history'>
               {Data.col1.items.map((item, key) => (
-                <div className='art-timeline-item' key={`education-item-${key}`}>
-                  <div className='art-timeline-mark-light'></div>
-                  <div className='art-timeline-mark'></div>
+                <div className='ja-timeline-item' key={`education-item-${key}`}>
+                  <div className='ja-timeline-mark-light'></div>
+                  <div className='ja-timeline-mark'></div>
 
-                  <div className='art-a art-timeline-content'>
-                    <div className='art-card-header'>
-                      <div className='art-left-side'>
+                  <div className='ja-a ja-timeline-content'>
+                    <div className='ja-card-header'>
+                      <div className='ja-left-side'>
                         <h5>{item.title}</h5>
-                        <div className='art-el-suptitle mb-15'>{item.subtitle}</div>
+                        <div className='ja-el-suptitle mb-15'>{item.subtitle}</div>
                       </div>
-                      <div className='art-right-side'>
-                        <span className='art-date'>{item.date}</span>
+                      <div className='ja-right-side'>
+                        <span className='ja-date'>{item.date}</span>
                       </div>
                     </div>
                     <p>{item.text}</p>
@@ -47,7 +47,7 @@ const HistorySection = ({ paddingTop = 0 }) => {
                         data-fancybox='diplome'
                         data-no-swup
                         href={item.button.link}
-                        className='art-link art-color-link art-w-chevron'
+                        className='ja-link ja-color-link ja-w-chevron'
                       >
                         {item.button.label}
                       </a>
@@ -60,9 +60,9 @@ const HistorySection = ({ paddingTop = 0 }) => {
           </div>
           <div className='col-lg-6'>
             {/* section title */}
-            <div className='art-section-title'>
+            <div className='ja-section-title'>
               {/* title frame */}
-              <div className='art-title-frame'>
+              <div className='ja-title-frame'>
                 {/* title */}
                 <h4 dangerouslySetInnerHTML={{ __html: Data.col2.title }} />
               </div>
@@ -71,20 +71,20 @@ const HistorySection = ({ paddingTop = 0 }) => {
             {/* section title end */}
 
             {/* timeline */}
-            <div className='art-timeline'>
+            <div className='ja-timeline'>
               {Data.col2.items.map((item, key) => (
-                <div className='art-timeline-item' key={`works-item-${key}`}>
-                  <div className='art-timeline-mark-light'></div>
-                  <div className='art-timeline-mark'></div>
+                <div className='ja-timeline-item' key={`works-item-${key}`}>
+                  <div className='ja-timeline-mark-light'></div>
+                  <div className='ja-timeline-mark'></div>
 
-                  <div className='art-a art-timeline-content'>
-                    <div className='art-card-header'>
-                      <div className='art-left-side'>
+                  <div className='ja-a ja-timeline-content'>
+                    <div className='ja-card-header'>
+                      <div className='ja-left-side'>
                         <h5>{item.title}</h5>
-                        <div className='art-el-suptitle mb-15'>{item.subtitle}</div>
+                        <div className='ja-el-suptitle mb-15'>{item.subtitle}</div>
                       </div>
-                      <div className='art-right-side'>
-                        <span className='art-date'>{item.date}</span>
+                      <div className='ja-right-side'>
+                        <span className='ja-date'>{item.date}</span>
                       </div>
                     </div>
                     <p>{item.text}</p>
@@ -95,25 +95,25 @@ const HistorySection = ({ paddingTop = 0 }) => {
                             return (
                               <Popup
                                 trigger={
-                                  <a className='art-link art-color-link art-w-chevron'>
+                                  <a className='ja-link ja-color-link ja-w-chevron'>
                                     {item.button.label}
                                   </a>
                                 }
                                 position='bottom center'
                               >
                                 {/* testimonial */}
-                                <div className='art-a art-testimonial'>
+                                <div className='ja-a ja-testimonial'>
                                   {/* testimonial body */}
                                   <div className='testimonial-body'>
                                     {/* photo */}
                                     <img
-                                      className='art-testimonial-face'
+                                      className='ja-testimonial-face'
                                       src='/img/testimonials/face-3.jpg'
                                       alt='face'
                                     />
                                     {/* name */}
                                     <h5>Paul Trueman</h5>
-                                    <div className='art-el-suptitle mb-15'>
+                                    <div className='ja-el-suptitle mb-15'>
                                       Template author
                                     </div>
                                     {/* text */}
@@ -127,10 +127,10 @@ const HistorySection = ({ paddingTop = 0 }) => {
                                   </div>
                                   {/* testimonial body end */}
                                   {/* testimonial footer */}
-                                  <div className='art-testimonial-footer'>
-                                    <div className='art-left-side'>
+                                  <div className='ja-testimonial-footer'>
+                                    <div className='ja-left-side'>
                                       {/* star rate */}
-                                      <ul className='art-star-rate'>
+                                      <ul className='ja-star-rate'>
                                         <li>
                                           <i className='fas fa-star'></i>
                                         </li>
@@ -149,7 +149,7 @@ const HistorySection = ({ paddingTop = 0 }) => {
                                       </ul>
                                       {/* star rate end */}
                                     </div>
-                                    <div className='art-right-side'></div>
+                                    <div className='ja-right-side'></div>
                                   </div>
                                   {/* testimonial footer end */}
                                 </div>
@@ -159,7 +159,7 @@ const HistorySection = ({ paddingTop = 0 }) => {
                           case 'link':
                             return (
                               <a
-                                className='art-link art-color-link art-w-chevron'
+                                className='ja-link ja-color-link ja-w-chevron'
                                 href={item.button.link}
                                 target='_blank'
                               >

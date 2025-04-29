@@ -3,39 +3,47 @@
   "items": [
     {
       "title": "Web Development",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "text": "Building responsive, high-performance web apps with modern frameworks like React, Next.js, and Vue.js.",
       "button": {
         "link": "/contact",
         "label": "Order now"
       }
     },
     {
-      "title": "UI/UX Design",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "title": "Mobile App Development",
+      "text": "Creating cross-platform iOS and Android apps with React Native and Ionic focusing on performance, design, and usability.",
       "button": {
         "link": "/contact",
         "label": "Order now"
       }
     },
     {
-      "title": "Sound Design",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "title": "Backend Development",
+      "text": "Designing scalable and secure backend systems using Node.js, NestJS, Python, Django, C#, and ASP.NET.",
       "button": {
         "link": "/contact",
         "label": "Order now"
       }
     },
     {
-      "title": "Game Design",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "title": "Cloud Solutions & DevOps",
+      "text": "Deploying and managing applications on AWS, GCP, and Azure with best practices in CI/CD, serverless, and cloud-native development.",
       "button": {
         "link": "/contact",
         "label": "Order now"
       }
     },
     {
-      "title": "Advertising",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "title": "AI/ML Integration",
+      "text": "Building intelligent applications powered by machine learning models, automation, and data analytics.",
+      "button": {
+        "link": "/contact",
+        "label": "Order now"
+      }
+    },
+    {
+      "title": "Full-Stack Project Consulting",
+      "text": "Helping startups and businesses plan, design, and build end-to-end digital solutions from concept to launch.",
       "button": {
         "link": "/contact",
         "label": "Order now"

@@ -11,7 +11,7 @@ const PartnersSlider = ({ paddingTop }) => {
           {Data.items.map((item, key) => (
             <div className='col-6 col-lg-3' key={`partners-slider-item-${key}`}>
               {/* brand */}
-              <img className='art-brand' src={item.image} alt={item.alt} />
+              <img className='ja-brand' src={item.image} alt={item.alt} />
             </div>
           ))}
           {/* col end */}

@@ -8,7 +8,7 @@ const DefaultFooter = () => {
         {/* footer */}
         <footer className='footer'>
           {/* copyright */}
-          <div className='art-copy'>{AppData.footer.copy}</div>
+          <div className='ja-copy'>{AppData.footer.copy}</div>
 
           {/* developer */}
           <div dangerouslySetInnerHTML={{ __html: AppData.footer.developer }} />

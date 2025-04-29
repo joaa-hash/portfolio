@@ -18,23 +18,23 @@ const PagesLayouts = ({ children }) => {
   return (
     <>
       {/* mobile top bar */}
-      <div className='art-mobile-top-bar'></div>
+      <div className='ja-mobile-top-bar'></div>
 
       {/* app wrapper */}
-      <div className='art-app-wrapper'>
+      <div className='ja-app-wrapper'>
         {/* app container */}
-        <div className='art-app-container'>
+        <div className='ja-app-container'>
           <InfoBar />
 
           {/* content */}
-          <div className='art-content'>
+          <div className='ja-content'>
             <TopBackground />
 
             {/* swup container */}
             <div className='transition-fade' id='swup'>
               {/* scroll frame */}
               {/*<Scrollbar>*/}
-              <div id='scrollbar' className='art-scroll-frame'>
+              <div id='scrollbar' className='ja-scroll-frame'>
                 {children}
 
                 <Footer layout={'default'} />
