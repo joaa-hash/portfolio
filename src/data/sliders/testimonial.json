@@ -2,6 +2,7 @@
   "title": "Recommendations",
   "items": [
     {
+      "id": "#recommentation1",
       "name": "Micah Stone",
       "image": "/img/testimonials/face-1.jpg",
       "role": "Founder of Plaza",
@@ -9,6 +10,7 @@
       "rating": 5
     },
     {
+      "id": "#recommentation2",
       "name": "Wilfred Tso",
       "image": "/img/testimonials/face-2.jpg",
       "role": "Founding Engineer",
@@ -16,13 +18,15 @@
       "rating": 5
     },
     {
-      "name": "Melissa Tressler",
+      "id": "#recommentation3",
+      "name": "Marine Samuel",
       "image": "/img/testimonials/face-3.jpg",
       "role": "Developer Relations",
       "text": "Josue completed the work successfully and demonstrated strong skills. He is a talented and hard working developer. We look forward to working with him on a long term basis. Highly recommended!",
       "rating": 5
     },
     {
+      "id": "#recommentation4",
       "name": "Nathan Black",
       "image": "/img/testimonials/face-4.jpg",
       "role": "Senior Project Manager",
