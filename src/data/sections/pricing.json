@@ -2,7 +2,7 @@
   "title": "Price Plans",
   "items": [
     {
-      "title": "Starter Price",
+      "title": "Starter Package",
       "price": {
         "before": "",
         "value": "FREE<sup>*</sup>",
@@ -10,23 +10,27 @@
       },
       "list": [
         {
-          "value": "UI Design",
+          "value": "Project Consultation",
           "active": 1
         },
         {
-          "value": "Web Development",
+          "value": "Requirement Analysis",
           "active": 1
         },
         {
-          "value": "Logo design",
+          "value": "Technology Stack Recommendation",
+          "active": 1
+        },
+        {
+          "value": "Full Development",
           "active": 0
         },
         {
-          "value": "SEO optimization",
+          "value": "Deployment and Hosting",
           "active": 0
         },
         {
-          "value": "Wordpress integration",
+          "value": "Ongoing Support",
           "active": 0
         }
       ],
@@ -38,32 +42,36 @@
       "popular": 0
     },
     {
-      "title": "Hourly payment",
+      "title": "Hourly Rate",
       "price": {
         "before": "$",
-        "value": "29",
-        "after": "h"
+        "value": "50",
+        "after": "/hr"
       },
       "list": [
         {
-          "value": "UI Design",
+          "value": "Web Application Development",
           "active": 1
         },
         {
-          "value": "Web Development",
+          "value": "Mobile Application Development",
           "active": 1
         },
         {
-          "value": "Logo design",
+          "value": "Backend/API Development",
           "active": 1
         },
         {
-          "value": "SEO optimization",
-          "active": 0
+          "value": "Cloud Deployment and DevOps",
+          "active": 1
         },
         {
-          "value": "Wordpress integration",
-          "active": 0
+          "value": "Performance Optimization",
+          "active": 1
+        },
+        {
+          "value": "Technical Support and Maintenance",
+          "active": 1
         }
       ],
       "button": {
@@ -74,31 +82,35 @@
       "popular": 1
     },
     {
-      "title": "Full time",
+      "title": "Full-Time",
       "price": {
         "before": "$",
-        "value": "2999",
-        "after": "h"
+        "value": "6500",
+        "after": "/mo"
       },
       "list": [
         {
-          "value": "UI Design",
+          "value": "Web Application Development",
           "active": 1
         },
         {
-          "value": "Web Development",
+          "value": "Mobile Application Development",
           "active": 1
         },
         {
-          "value": "Logo design",
+          "value": "Backend/API Development",
           "active": 1
         },
         {
-          "value": "SEO optimization",
+          "value": "Cloud Deployment and DevOps",
           "active": 1
         },
         {
-          "value": "Wordpress integration",
+          "value": "Performance Optimization",
+          "active": 1
+        },
+        {
+          "value": "Technical Support and Maintenance",
           "active": 1
         }
       ],
