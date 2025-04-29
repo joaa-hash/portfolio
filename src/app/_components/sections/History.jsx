@@ -1,8 +1,10 @@
 'use client';
 
 import Data from '@data/sections/history.json';
+import Testimonials from '@data/sliders/testimonial.json';
 import Popup from 'reactjs-popup';
 import ImageView from '@components/ImageView';
+import { find } from 'lodash';
 
 const HistorySection = ({ paddingTop = 0 }) => {
   return (
@@ -34,7 +36,7 @@ const HistorySection = ({ paddingTop = 0 }) => {
                   <div className='ja-a ja-timeline-content'>
                     <div className='ja-card-header'>
                       <div className='ja-left-side'>
-                        <h5>{item.title}</h5>
+                        <h5 dangerouslySetInnerHTML={{ __html: item.title }} />
                         <div className='ja-el-suptitle mb-15'>{item.subtitle}</div>
                       </div>
                       <div className='ja-right-side'>
@@ -90,8 +92,14 @@ const HistorySection = ({ paddingTop = 0 }) => {
                     <p>{item.text}</p>
                     {(() => {
                       if (item.button) {
+                        let testimonial;
+
                         switch (item.button.type) {
                           case 'modal':
+                            testimonial = find(Testimonials.items, {
+                              id: item.button.link,
+                            });
+
                             return (
                               <Popup
                                 trigger={
@@ -108,22 +116,16 @@ const HistorySection = ({ paddingTop = 0 }) => {
                                     {/* photo */}
                                     <img
                                       className='ja-testimonial-face'
-                                      src='/img/testimonials/face-3.jpg'
+                                      src={testimonial.image}
                                       alt='face'
                                     />
                                     {/* name */}
-                                    <h5>Paul Trueman</h5>
+                                    <h5>{testimonial.name}</h5>
                                     <div className='ja-el-suptitle mb-15'>
-                                      Template author
+                                      {testimonial.role}
                                     </div>
                                     {/* text */}
-                                    <div className='mb-15'>
-                                      Working with Josue has been a pleasure. Better yet -
-                                      I alerted them of a minor issue before going to
-                                      sleep. The issue was fixed the next morning. I
-                                      couldn't ask for better support. Thank you Josue!
-                                      This is easily a 5 star freelancer.
-                                    </div>
+                                    <div className='mb-15'>{testimonial.text}</div>
                                   </div>
                                   {/* testimonial body end */}
                                   {/* testimonial footer */}
