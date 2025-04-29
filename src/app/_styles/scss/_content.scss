@@ -199,7 +199,7 @@ content
       bottom: 10px;
       left: 0;
       text-align: center;
-      font-size: 8px;
+      font-size: 9px;
       opacity: 0.4;
     }
 
@@ -283,14 +283,17 @@ content
 
 .ja-testimonial {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background-size: cover;
   padding: 30px;
   background: $card-color;
   box-shadow: $shadow-1;
+  height: 100%;
 
   & .testimonial-body {
     width: 100%;
-    height: 100%;
+    flex-grow: 1;
     z-index: 0;
 
     & .ja-testimonial-face {
@@ -1504,4 +1507,9 @@ content (after 500px)
   color: #fafafc;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.ja-testimonial-slider-item {
+  display: flex;
+  align-self: stretch;
 }

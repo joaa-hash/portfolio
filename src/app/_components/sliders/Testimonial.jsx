@@ -34,11 +34,11 @@ const TestimonialSlider = () => {
             {/* slider container */}
             <Swiper
               {...SliderProps.milReviewsSlider}
-              className='swiper-container ja-testimonial-slider'
+              className='swiper-container ja-testimonial-slider swiper-autoheight'
             >
               {Data.items.map((item, key) => (
                 <SwiperSlide
-                  className='swiper-slide'
+                  className='swiper-slide ja-testimonial-slider-item'
                   key={`testimonial-slider-item-${key}`}
                 >
                   {/* testimonial */}
