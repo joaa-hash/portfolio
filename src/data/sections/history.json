@@ -3,43 +3,16 @@
     "title": "Education",
     "items": [
       {
-        "title": "University of Toronto",
+        "title": "Community University of<br>San Luis Potosí",
         "subtitle": "Student",
-        "date": "jan 2018 - may 2020",
-        "text": "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri",
-        "button": {
-          "link": "/files/certificate.jpg",
-          "type": "image",
-          "label": "Diplome"
-        }
+        "date": "Aug 2008 - Jun 2012",
+        "text": "Bachelor's Degree in Computer Science"
       },
       {
-        "title": "Programming Course",
+        "title": "Ironhack",
         "subtitle": "Student",
-        "date": "jan 2016- apr 2017",
-        "text": "Coursework - Git, WordPress, Javascript, iOS, Android."
-      },
-      {
-        "title": "Web developer courses",
-        "subtitle": "Student",
-        "date": "aug 2014 - oct 2015",
-        "text": "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript",
-        "button": {
-          "link": "/files/certificate.jpg",
-          "type": "image",
-          "label": "License"
-        }
-      },
-      {
-        "title": "Academy of Art University",
-        "subtitle": "Student",
-        "date": "jan 2018 - may 2020",
-        "text": "Ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.",
-        "button": {
-          "link": "/files/certificate.jpg",
-          "type": "image",
-          "label": "Certificate"
-        }
+        "date": "Aug 2013 - Nov 2013",
+        "text": "Learned modern full-stack development using JavaScript, React, Node.js, Express, and MongoDB. Built and deployed full-stack apps using Agile practices."
       }
     ]
   },
@@ -47,16 +20,10 @@
     "title": "Work History",
     "items": [
       {
-        "title": "Envato",
-        "subtitle": "Template Author",
-        "date": "jan 2018 - may 2020",
-        "text": "Created Professional WordPress Themes & Templates for Personal and Creative Websites."
-      },
-      {
-        "title": "ABC Studio",
-        "subtitle": "Front-End Developer",
-        "date": "apr 2018 - aug 2019",
-        "text": "Collaborate with creative and development teams on the execution of ideas.",
+        "title": "Upwork",
+        "subtitle": "Senior Freelance Software Engineer",
+        "date": "Apr 2022 - ",
+        "text": "Successfully delivered high-impact web and mobile applications for global clients, specializing in React, Next.js, React Native, Node.js, NestJS, AWS, Python, and AI/ML solutions.",
         "button": {
           "type": "modal",
           "link": "#recommentation1",
@@ -64,21 +31,44 @@
         }
       },
       {
-        "title": "Digital Web Studio",
-        "subtitle": "Senior Developer",
-        "date": "jan 2017 - may 2018",
-        "text": "Optimize your website and apps performance using latest technology.",
+        "title": "IntelliCode",
+        "subtitle": "Senior Full Stack Developer",
+        "date": "Oct 2024 - Apr 2025",
+        "text": "Led full-stack development at IntelliCode, building scalable web applications and APIs using React, Next.js, Python, Django, FastAPI, and AWS to deliver robust software solutions for diverse client needs.",
         "button": {
-          "type": "link",
-          "link": "https://linkedin.com/username/recommentation1",
+          "type": "modal",
+          "link": "#recommentation3",
           "label": "Recommendation"
         }
       },
       {
-        "title": "SoftService company",
-        "subtitle": "UI Developer",
-        "date": "dec 2015 - jan 2016",
-        "text": "Collaborate with creative and development teams on the execution of ideas."
+        "title": "iTexico",
+        "subtitle": "Full Stack Developer",
+        "date": "Nov 2018 - Feb 2022",
+        "text": "Developed and scaled a modern single-page application while leading key migrations from Backbone to React, building a custom UI framework, and implementing high-performance features using technologies like ElasticSearch, Kafka, AWS, and TypeScript.",
+        "button": {
+          "type": "modal",
+          "link": "#recommentation4",
+          "label": "Recommendation"
+        }
+      },
+      {
+        "title": "EPAM Systems",
+        "subtitle": "Senior Developer",
+        "date": "Sep 2016 - Oct 2018",
+        "text": "Led the design and implementation of a scalable AWS architecture and internal admin platform, integrating serverless technologies and security automation while developing custom tools, dashboards, and cost-optimized cloud solutions using React, Node.js, and AWS services."
+      },
+      {
+        "title": "Dextra Technologies",
+        "subtitle": "Web Developer",
+        "date": "Jun 2014 - Aug 2016",
+        "text": "Improved system reliability by implementing retry logic and resolving bugs, enhanced API capabilities, and seamlessly migrated service integrations while preserving core functionality using Node.js, AWS, and SQL databases."
+      },
+      {
+        "title": "UST Global",
+        "subtitle": "Software Engineer",
+        "date": "Nov 2012 - May 2014",
+        "text": "Developed RESTful web services with Jersey, Hibernate, and Spring, practiced test-driven development, created and executed test cases, managed the full defect lifecycle, and contributed to frontend updates using JavaScript, HTML, and CSS."
       }
     ]
   }
