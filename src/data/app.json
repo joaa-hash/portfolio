@@ -2,7 +2,7 @@
   "settings": {
     "siteName": "Portfolio",
     "siteDescription": "Josue Acuna Personal Portfolio",
-    "formspreeURL": "https://formspree.io/f/your_api_key",
+    "formspreeURL": "https://formspree.io/f/mblodaae",
     "mailchimp": {
       "url": "",
       "key": ""
@@ -164,14 +164,9 @@
         "children": 0
       },
       {
-        "label": "Other",
-        "link": "/#.",
-        "children": [
-          {
-            "label": "Onepage",
-            "link": "/onepage"
-          }
-        ]
+        "label": "Overview",
+        "link": "/onepage",
+        "children": 0
       }
     ]
   },
