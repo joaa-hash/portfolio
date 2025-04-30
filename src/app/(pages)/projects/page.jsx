@@ -1,18 +1,20 @@
-import React, { Suspense } from "react";
-import dynamic from "next/dynamic";
+import React, { Suspense } from 'react';
+import dynamic from 'next/dynamic';
 
-import AppData from "@data/app.json";
+import AppData from '@data/app.json';
 
-const ProjectsMasonry = dynamic( () => import("@components/ProjectsMasonry"), { ssr: false } );
+const ProjectsMasonry = dynamic(() => import('@components/ProjectsMasonry'), {
+  ssr: false,
+});
 
-import { getSortedProjectsData } from "@library/projects";
+import { getSortedProjectsData } from '@library/projects';
 
 export const metadata = {
   title: {
-		default: "Projects",
-	},
+    default: 'Projects',
+  },
   description: AppData.settings.siteDescription,
-}
+};
 
 async function Projects() {
   const projects = await getAllProjects();
@@ -24,7 +26,7 @@ async function Projects() {
       </Suspense>
     </>
   );
-};
+}
 export default Projects;
 
 async function getAllProjects() {

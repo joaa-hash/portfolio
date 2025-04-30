@@ -2,7 +2,7 @@
   "settings": {
     "siteName": "Portfolio",
     "siteDescription": "Josue Acuna Personal Portfolio",
-    "formspreeURL": "https://formspree.io/f/your_api_key",
+    "formspreeURL": "https://formspree.io/f/mblodaae",
     "mailchimp": {
       "url": "",
       "key": ""
@@ -12,7 +12,7 @@
   "profile": {
     "avatar": "/img/face-1.jpg",
     "name": "Josue Acuna",
-    "role": "Front-end Deweloper <br>Ui/UX Designer",
+    "role": "Senior Software Engineer <br>Full Stack Developer",
     "info": [
       {
         "label": "Residence",
@@ -30,10 +30,6 @@
     "skills": {
       "language": [
         {
-          "label": "French",
-          "value": "1"
-        },
-        {
           "label": "English",
           "value": "0.9"
         },
@@ -44,38 +40,66 @@
       ],
       "hard": [
         {
-          "label": "html",
-          "value": "0.9"
-        },
-        {
-          "label": "CSS",
+          "label": "JavaScript",
           "value": "0.95"
         },
         {
-          "label": "Js",
+          "label": "Python",
+          "value": "0.8"
+        },
+        {
+          "label": "C#",
           "value": "0.75"
         },
         {
-          "label": "PHP",
-          "value": "0.65"
+          "label": "React",
+          "value": "0.95"
         },
         {
-          "label": "Wordpress",
+          "label": "Next.js",
           "value": "0.85"
+        },
+        {
+          "label": "React Native",
+          "value": "0.9"
+        },
+
+        {
+          "label": "Node.js",
+          "value": "0.9"
+        },
+        {
+          "label": "Nest.js",
+          "value": "0.8"
+        },
+        {
+          "label": "Django",
+          "value": "0.8"
+        },
+        {
+          "label": "ASP.NET",
+          "value": "0.7"
+        },
+        {
+          "label": "AI/ML",
+          "value": "0.7"
         }
       ],
       "knowledge": [
         {
-          "label": "Bootstrap, Materialize"
+          "label": "AWS, GCP, Azure"
         },
         {
-          "label": "Stylus, Sass, Less"
+          "label": "MongoDB, MySQL, PostgreSQL"
         },
         {
-          "label": "Gulp, Webpack, Grunt"
+          "label": "GraphQL, REST APIs"
         },
         {
-          "label": "GIT knowledge"
+          "label": "HTML5, CSS3, Sass, Less, Bootstrap, Tailwind CSS"
+        },
+        {
+          "label": "Firebase, GitHub, Vercel, Bitrise"
         }
       ]
     },
@@ -97,42 +121,7 @@
       {
         "label": "Projects",
         "link": "/projects",
-        "children": [
-          {
-            "label": "Projects Masonry",
-            "link": "/projects"
-          },
-          {
-            "label": "Projects Grid",
-            "link": "/projects-2"
-          },
-          {
-            "label": "Projects Masonry 2",
-            "link": "/projects-3"
-          },
-          {
-            "label": "Projects Grid 2",
-            "link": "/projects-4"
-          }
-        ]
-      },
-      {
-        "label": "Blog",
-        "link": "/blog",
-        "children": [
-          {
-            "label": "Blog List",
-            "link": "/blog"
-          },
-          {
-            "label": "Blog List 2",
-            "link": "/blog-2"
-          },
-          {
-            "label": "Publication",
-            "link": "/blog/the-infrastructure-that-powers-the-world"
-          }
-        ]
+        "children": 0
       },
       {
         "label": "Contact",
@@ -140,14 +129,9 @@
         "children": 0
       },
       {
-        "label": "Other",
-        "link": "/#.",
-        "children": [
-          {
-            "label": "Onepage",
-            "link": "/onepage"
-          }
-        ]
+        "label": "Overview",
+        "link": "/overview",
+        "children": 0
       }
     ]
   },
@@ -162,19 +146,14 @@
       "title": "Linkedin"
     },
     {
-      "link": "https://dribbble.com",
-      "icon": "fab fa-dribbble",
-      "title": "Dribbble"
-    },
-    {
-      "link": "https://behance.com",
-      "icon": "fab fa-behance",
-      "title": "Behance"
-    },
-    {
-      "link": "https://github.com",
+      "link": "https://github.com/joaa-hash",
       "icon": "fab fa-github",
       "title": "Github"
+    },
+    {
+      "link": "https://upwork.com",
+      "icon": "fab6 fa-upwork",
+      "title": "Upwork"
     },
     {
       "link": "https://twitter.com",
@@ -185,20 +164,20 @@
   "projects": {
     "categories": [
       {
-        "name": "Web Templates",
-        "slug": "web-templates"
+        "name": "ECommerce",
+        "slug": "ecommerce"
       },
       {
-        "name": "UI Elements",
-        "slug": "ui-elements"
+        "name": "Social",
+        "slug": "social-networking"
       },
       {
-        "name": "Logos",
-        "slug": "logos"
+        "name": "Booking",
+        "slug": "booking"
       },
       {
-        "name": "Drawings",
-        "slug": "drawings"
+        "name": "Others",
+        "slug": "others"
       }
     ]
   }

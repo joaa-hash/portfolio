@@ -15,7 +15,7 @@ import SwiperCore, {
   Virtual,
   Parallax,
   FreeMode,
-} from "swiper";
+} from 'swiper';
 
 SwiperCore.use([
   Mousewheel,
@@ -36,9 +36,9 @@ SwiperCore.use([
   FreeMode,
 ]);
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export const SliderProps = {
   milImagesFullSlider: {
@@ -49,12 +49,12 @@ export const SliderProps = {
       delay: 5000,
     },
     pagination: {
-      el: '.art-project-slider-navigation .swiper-pagination',
+      el: '.ja-project-slider-navigation .swiper-pagination',
       clickable: true,
     },
     navigation: {
-      nextEl: '.art-works-swiper-next',
-      prevEl: '.art-works-swiper-prev',
+      nextEl: '.ja-works-swiper-next',
+      prevEl: '.ja-works-swiper-prev',
     },
     breakpoints: {
       1500: {
@@ -73,15 +73,15 @@ export const SliderProps = {
     spaceBetween: 30,
     speed: 1400,
     autoplay: {
-      delay: 5000
+      delay: 5000,
     },
     pagination: {
-      el: '.art-testimonial-slider-navigation .swiper-pagination',
+      el: '.ja-testimonial-slider-navigation .swiper-pagination',
       clickable: true,
     },
     navigation: {
-      nextEl: '.art-testi-swiper-next',
-      prevEl: '.art-testi-swiper-prev',
+      nextEl: '.ja-testi-swiper-next',
+      prevEl: '.ja-testi-swiper-prev',
     },
     breakpoints: {
       1500: {
@@ -106,12 +106,12 @@ export const SliderProps = {
       delay: 5000,
     },
     pagination: {
-      el: '.art-blog-slider-navigation .swiper-pagination',
+      el: '.ja-blog-slider-navigation .swiper-pagination',
       clickable: true,
     },
     navigation: {
-      nextEl: '.art-blog-swiper-next',
-      prevEl: '.art-blog-swiper-prev',
+      nextEl: '.ja-blog-swiper-next',
+      prevEl: '.ja-blog-swiper-prev',
     },
     breakpoints: {
       1200: {
@@ -124,5 +124,5 @@ export const SliderProps = {
         slidesPerView: 1,
       },
     },
-  }
+  },
 };

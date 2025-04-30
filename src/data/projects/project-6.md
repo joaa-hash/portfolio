@@ -1,9 +1,9 @@
 ---
 #preview
-title: Tony's Chocolonely
-image: /img/works/thumbnail/6.jpg
-category: Logos
-category_slug: logos
+title: Bluebridge
+image: /img/works/thumbnail/bluebridge/1.png
+category: Booking
+category_slug: booking
 date: may 24 2023
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: vertical
@@ -12,42 +12,43 @@ masonrySize: vertical
 description:
     title: Description
     content: "
-      <p>Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</p>
+      <p>Bluebridge is a ferry booking platform that allows users to schedule and manage inter-island travel in New Zealand. I worked on enhancing the booking experience by integrating interactive components with Google Maps, optimizing UI using React.js and Ant Design, and streamlining content management through Umbraco CMS.</p>
     "
     button:
       label: Read More
-      link: https://www.behance.net/gallery/83236527/VIE
+      link: https://www.bluebridge.co.nz
 
 details:
-  title: Info Project
+  title: Project Details
   items:
-    - label: Order Date
-      value: 24.01.2024
+    - label: Role
+      value: Frontend Developer
 
-    - label: Final Date
-      value: 12.02.2024
+    - label: Category
+      value: Booking Platform
 
     - label: Status
       value: Completed
 
-    - label: Client
-      value: Envato Market
-
-    - label: Location
-      value: Ukraine, Lviv
+    - label: Stacks
+      value: React, Ant Design, Umbraco CMS, Google Maps API
 
 gallery:
   title: Result
   items:
-  - image: /img/works/thumbnail/1.jpg
+  - image: /img/works/thumbnail/bluebridge/1.png
     masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/2.jpg
+  - image: /img/works/thumbnail/bluebridge/2.png
+    masonrySize: horizontal
+    alt: image
+
+  - image: /img/works/thumbnail/bluebridge/3.png
     masonrySize: vertical
     alt: image
 
-  - image: /img/works/thumbnail/3.jpg
+  - image: /img/works/thumbnail/bluebridge/4.png
     masonrySize: horizontal
     alt: image
 ---

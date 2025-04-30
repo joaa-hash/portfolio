@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 
-import AppData from "@data/app.json";
+import AppData from '@data/app.json';
 
-import PartnersSection from "@components/sections/Partners";
-import HistorySection from "@components/sections/History";
+import PartnersSection from '@components/sections/Partners';
+import HistorySection from '@components/sections/History';
 
 export const metadata = {
   title: {
-		default: "History",
-	},
+    default: 'History',
+  },
   description: AppData.settings.siteDescription,
-}
+};
 
 async function HistoryPage() {
   return (
@@ -19,5 +19,5 @@ async function HistoryPage() {
       <PartnersSection />
     </>
   );
-};
+}
 export default HistoryPage;

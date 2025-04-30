@@ -1,9 +1,9 @@
 ---
 #preview
-title: City House
-image: /img/works/thumbnail/2.jpg
-category: Web Templates
-category_slug: web-templates
+title: MediaPro
+image: /img/works/thumbnail/mediapro/1.png
+category: eLearning
+category_slug: others
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: vertical
 
@@ -11,42 +11,37 @@ masonrySize: vertical
 description:
     title: Description
     content: "
-      <p>Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</p>
+      <p>MediaPro produces learning solutions for information security and privacy awareness as well as compliance training materials. I worked as a full stack developer building UI with React.js and backend using Node.js, Express, MongoDB.</p>
     "
     button:
       label: Read More
-      link: https://www.behance.net/gallery/83236527/VIE
+      link: https://www.mediapro.tv
 
 details:
-  title: Info Project
+  title: Project Details
   items:
-    - label: Order Date
-      value: 24.01.2024
+    - label: Role
+      value: Full Stack Developer
 
-    - label: Final Date
-      value: 12.02.2024
+    - label: Category
+      value: eLearning
 
     - label: Status
       value: Completed
 
-    - label: Client
-      value: Envato Market
+    - label: Stacks
+      value: MERN, Azure, Prisma, TypeScript
 
-    - label: Location
-      value: Ukraine, Lviv
-
-gallery:
-  title: Result
-  items:
-  - image: /img/works/thumbnail/1.jpg
+carousel:
+  - image: /img/works/thumbnail/mediapro/1.png
     masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/2.jpg
+  - image: /img/works/thumbnail/mediapro/2.png
     masonrySize: vertical
     alt: image
 
-  - image: /img/works/thumbnail/3.jpg
+  - image: /img/works/thumbnail/mediapro/3.png
     masonrySize: horizontal
     alt: image
 

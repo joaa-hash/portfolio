@@ -3,7 +3,7 @@
 transitions
 
 ------------------------------ */
-.art-a {
+.ja-a {
   transition: $tr-lg;
 }
 /* ----- in animation ----- */
@@ -11,13 +11,13 @@ transitions
   transition: $tr-lg;
   opacity: 1;
 
-  & .art-a {
+  & .ja-a {
     transform: scale(1);
     opacity: 1;
   }
 
-  & .art-price {
-    &.art-popular-price {
+  & .ja-price {
+    &.ja-popular-price {
       transform: scale(1.03);
     }
   }
@@ -26,15 +26,15 @@ transitions
 html.is-animating .transition-fade {
   opacity: 0;
 
-  & .art-a {
-    transform: scale(.93);
+  & .ja-a {
+    transform: scale(0.93);
     opacity: 0;
   }
 }
 
 html.is-animating {
-  & .art-a,
-  & .art-current-page {
+  & .ja-a,
+  & .ja-current-page {
     opacity: 0;
   }
 }
@@ -61,8 +61,8 @@ html.is-animating .fade-left {
 
 @media (max-width: 920px) {
   .transition-fade {
-    & .art-price {
-      &.art-popular-price {
+    & .ja-price {
+      &.ja-popular-price {
         transform: scale(1);
       }
     }

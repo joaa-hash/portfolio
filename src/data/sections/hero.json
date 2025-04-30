@@ -1,13 +1,13 @@
 {
   "bg_image": "/img/bg.jpg",
-  "title": "Discover my Amazing <br/>Art Space!",
+  "title": "Explore My World of Software Creation!",
   "subtitle": {
     "start": "&lt;<i>code</i>&gt; I build ",
     "rotates": [
-      "web interfaces.",
-      "ios and android applications.",
-      "design mocups.",
-      "automation tools."
+      "scalable web applications.",
+      "high-performance mobile apps.",
+      "and architect backend systems.",
+      "cloud-native and AI-powered solutions."
     ],
     "end": "&lt;/<i>code</i>&gt;"
   },
