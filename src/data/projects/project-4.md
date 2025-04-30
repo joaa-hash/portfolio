@@ -1,9 +1,9 @@
 ---
 #preview
-title: Cascade of Lava
-image: /img/works/thumbnail/4.jpg
-category: UI Elements
-category_slug: ui-elements
+title: TellTail
+image: /img/works/thumbnail/telltail/1.png
+category: Marketplace
+category_slug: others
 date: may 24 2023
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: square
@@ -12,42 +12,43 @@ masonrySize: square
 description:
     title: Description
     content: "
-      <p>Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</p>
+      <p>TellTail is the trusted platform where future pet parents match with Certified Dog Breeders to find the perfect pup. As part of the TellTail team, I played a pivotal role in this endeavor contributing my skills to development and enhancement of their web platform. I implemented responsive designs to create dynamic and interactive web experiences and created robust backend functionality.</p>
     "
     button:
       label: Read More
-      link: https://www.behance.net/gallery/83236527/VIE
+      link: https://telltail.com
 
 details:
-  title: Info Project
+  title: Project Details
   items:
-    - label: Order Date
-      value: 24.01.2024
+    - label: Role
+      value: Full Stack Developer
 
-    - label: Final Date
-      value: 12.02.2024
+    - label: Category
+      value: Marketplace
 
     - label: Status
       value: Completed
 
-    - label: Client
-      value: Envato Market
-
-    - label: Location
-      value: Ukraine, Lviv
+    - label: Stacks
+      value: React, Next.js, Node, Tailwind CSS, HubSpot
 
 gallery:
   title: Result
   items:
-  - image: /img/works/thumbnail/1.jpg
+  - image: /img/works/thumbnail/telltail/1.png
     masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/2.jpg
+  - image: /img/works/thumbnail/telltail/2.png
     masonrySize: vertical
     alt: image
 
-  - image: /img/works/thumbnail/3.jpg
+  - image: /img/works/thumbnail/telltail/3.png
+    masonrySize: horizontal
+    alt: image
+
+  - image: /img/works/thumbnail/telltail/4.png
     masonrySize: horizontal
     alt: image
 ---
