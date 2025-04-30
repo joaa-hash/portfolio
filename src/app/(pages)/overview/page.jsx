@@ -50,10 +50,6 @@ async function HomeOnePage() {
 
       <HistorySection />
 
-      <Suspense fallback={<div>Loading...</div>}>
-        <LatestPostsSlider posts={posts} />
-      </Suspense>
-
       <ContactInfoSection />
       <ContactFormSection />
       <PartnersSection />

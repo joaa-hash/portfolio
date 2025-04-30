@@ -121,42 +121,7 @@
       {
         "label": "Projects",
         "link": "/projects",
-        "children": [
-          {
-            "label": "Projects Masonry",
-            "link": "/projects"
-          },
-          {
-            "label": "Projects Grid",
-            "link": "/projects-2"
-          },
-          {
-            "label": "Projects Masonry 2",
-            "link": "/projects-3"
-          },
-          {
-            "label": "Projects Grid 2",
-            "link": "/projects-4"
-          }
-        ]
-      },
-      {
-        "label": "Blog",
-        "link": "/blog",
-        "children": [
-          {
-            "label": "Blog List",
-            "link": "/blog"
-          },
-          {
-            "label": "Blog List 2",
-            "link": "/blog-2"
-          },
-          {
-            "label": "Publication",
-            "link": "/blog/the-infrastructure-that-powers-the-world"
-          }
-        ]
+        "children": 0
       },
       {
         "label": "Contact",
@@ -165,7 +130,7 @@
       },
       {
         "label": "Overview",
-        "link": "/onepage",
+        "link": "/overview",
         "children": 0
       }
     ]
@@ -199,20 +164,20 @@
   "projects": {
     "categories": [
       {
-        "name": "Web Templates",
-        "slug": "web-templates"
+        "name": "ECommerce",
+        "slug": "ecommerce"
       },
       {
-        "name": "UI Elements",
-        "slug": "ui-elements"
+        "name": "Social",
+        "slug": "social-networking"
       },
       {
-        "name": "Logos",
-        "slug": "logos"
+        "name": "Booking",
+        "slug": "booking"
       },
       {
-        "name": "Drawings",
-        "slug": "drawings"
+        "name": "Others",
+        "slug": "others"
       }
     ]
   }
