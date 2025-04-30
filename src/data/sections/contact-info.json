@@ -7,48 +7,16 @@
     {
       "info": [
         {
+          "label": "Email",
+          "value": "josue.aguilar.wk@gmail.com"
+        },
+        {
           "label": "Country",
           "value": "Mexico"
         },
         {
           "label": "City",
           "value": "San Luis Potosí"
-        },
-        {
-          "label": "Streat",
-          "value": "20 Dellbank Rd"
-        }
-      ]
-    },
-    {
-      "info": [
-        {
-          "label": "Email",
-          "value": "josue.aguilar.wk@gmail.com"
-        },
-        {
-          "label": "Telegram",
-          "value": "@josue"
-        },
-        {
-          "label": "Skype",
-          "value": "Josue"
-        }
-      ]
-    },
-    {
-      "info": [
-        {
-          "label": "Support service",
-          "value": "+52 (444) 123 45 67"
-        },
-        {
-          "label": "Office",
-          "value": "+52 (444) 123 45 67"
-        },
-        {
-          "label": "Personal",
-          "value": "+52 (444) 123 45 67"
         }
       ]
     }
