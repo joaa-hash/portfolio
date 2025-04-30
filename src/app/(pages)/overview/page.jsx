@@ -27,7 +27,7 @@ const ProjectsMasonry = dynamic(() => import('@components/ProjectsMasonry'), {
 
 export const metadata = {
   title: {
-    default: 'Home 3',
+    default: 'Overview',
   },
   description: AppData.settings.siteDescription,
 };
