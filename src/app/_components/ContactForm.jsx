@@ -18,7 +18,7 @@ const ContactForm = () => {
           }
           return errors;
         }}
-        onSubmit={(values, { setSubmitting }) => {
+        onSubmit={(values, { setSubmitting, resetForm }) => {
           const form = document.getElementById('contactForm');
           const status = document.getElementById('contactFormStatus');
           const data = new FormData();
@@ -37,7 +37,7 @@ const ContactForm = () => {
             .then((response) => {
               if (response.ok) {
                 status.innerHTML = '<h5>Thanks, your message is sent successfully.</h5>';
-                form.reset();
+                resetForm();
               } else {
                 response.json().then((data) => {
                   if (Object.hasOwn(data, 'errors')) {
@@ -136,7 +136,11 @@ const ContactForm = () => {
             {/* form field end */}
             {/* button */}
             <div className='ja-submit-frame'>
-              <button className='ja-btn ja-btn-md ja-submit' type='submit'>
+              <button
+                className='ja-btn ja-btn-md ja-submit'
+                type='submit'
+                disabled={isSubmitting}
+              >
                 <span>Send message</span>
               </button>
               {/* success */}
@@ -146,11 +150,7 @@ const ContactForm = () => {
             </div>
             {/* button end */}
 
-            <div
-              className='form-status alert-success mil-mb-90'
-              id='contactFormStatus'
-              style={{ display: 'none' }}
-            />
+            <div className='form-status alert-success mil-mb-90' id='contactFormStatus' />
           </form>
         )}
       </Formik>
