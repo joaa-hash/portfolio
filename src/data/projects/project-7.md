@@ -1,9 +1,9 @@
 ---
 #preview
-title: Confidential Technology
-image: /img/works/thumbnail/7.jpg
-category: Logos
-category_slug: logos
+title: Sports Thread
+image: /img/works/thumbnail/sports-thread/1.png
+category: Social
+category_slug: social-networking
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: horizontal
 
@@ -11,43 +11,55 @@ masonrySize: horizontal
 description:
   title: Description
   content: "
-      <p>Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</p>
+      <p>Sports Thread is a pioneering SaaS and social networking platform tailored for the youth sports market, serving over one million users annually. I contributed to developing core features of the platform using Python, FastAPI, and MySQL, while enhancing interactivity with tools like Google Maps, jQuery, and VideoJS.</p>
   "
   button:
     label: Read More
-    link: https://www.behance.net/gallery/83236527/VIE
+    link: https://sportsthread.com
 
 details:
-  title: Project details
+  title: Project Details
   items:
-    - label: Order Date
-      value: 24.01.2024
+    - label: Role
+      value: Full Stack Developer
 
-    - label: Final Date
-      value: 12.02.2024
+    - label: Category
+      value: Social Networking
 
     - label: Status
       value: Completed
 
-    - label: Client
-      value: Envato Market
+    - label: Stacks
+      value: Python, Fast API, JavaScript, jQuery, Google Maps, VideoJS, MySQL
 
-    - label: Location
-      value: Ukraine, Lviv
-
-carousel:
-  - image: /img/works/thumbnail/1.jpg
+gallery:
+  title: Result
+  items:
+  - image: /img/works/thumbnail/sports-thread/1.png
+    masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/7.jpg
+  - image: /img/works/thumbnail/sports-thread/2.png
+    masonrySize: vertical
     alt: image
 
-  - image: /img/works/thumbnail/4.jpg
+  - image: /img/works/thumbnail/sports-thread/3.png
+    masonrySize: vertical
     alt: image
 
-  - image: /img/works/thumbnail/5.jpg
+  - image: /img/works/thumbnail/sports-thread/4.png
+    masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/3.jpg
+  - image: /img/works/thumbnail/sports-thread/5.png
+    masonrySize: horizontal
+    alt: image
+
+  - image: /img/works/thumbnail/sports-thread/6.png
+    masonrySize: horizontal
+    alt: image
+
+  - image: /img/works/thumbnail/sports-thread/7.png
+    masonrySize: horizontal
     alt: image
 ---

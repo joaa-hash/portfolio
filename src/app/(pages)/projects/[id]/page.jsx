@@ -140,7 +140,7 @@ async function ProjectDetail({ params }) {
               {postData.description.button !== undefined && (
                 <div className='ja-buttons-frame'>
                   <a
-                    href={postData.description.button.label}
+                    href={postData.description.button.link}
                     className='ja-link ja-color-link ja-w-chevron'
                     target='_blank'
                     data-no-swup

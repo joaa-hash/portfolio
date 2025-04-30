@@ -1,9 +1,9 @@
 ---
 #preview
-title: Smart House by Molekule
-image: /img/works/thumbnail/5.jpg
-category: UI Elements
-category_slug: ui-elements
+title: Mountain Khakis
+image: /img/works/thumbnail/mountain-khakis/1.png
+category: ECommerce
+category_slug: ecommerce
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: square
 
@@ -11,43 +11,43 @@ masonrySize: square
 description:
   title: Description
   content: "
-      <p>Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</p>
+      <p>Mountain Khakis is an eCommerce platform offering premium outdoor apparel. I contributed to modernizing their existing codebase by implementing new features, enhancing UI components, and integrating multiple payment options including Venmo, PayPal, Apple Pay, and Amazon Pay.</p>
   "
   button:
     label: Read More
-    link: https://www.behance.net/gallery/83236527/VIE
+    link: https://www.mountainkhakis.com
 
 details:
-  title: Project details
+  title: Project Details
   items:
-    - label: Order Date
-      value: 24.01.2024
+    - label: Role
+      value: Frontend Developer
 
-    - label: Final Date
-      value: 12.02.2024
+    - label: Category
+      value: ECommerce
 
     - label: Status
       value: Completed
 
-    - label: Client
-      value: Envato Market
-
-    - label: Location
-      value: Ukraine, Lviv
+    - label: Stacks
+      value: React, Bootstrap, Shopify, Venmo, Apple Pay, Amazon Pay, Snowplow
 
 carousel:
-  - image: /img/works/thumbnail/1.jpg
+  - image: /img/works/thumbnail/mountain-khakis/1.png
     alt: image
 
-  - image: /img/works/thumbnail/7.jpg
+  - image: /img/works/thumbnail/mountain-khakis/2.png
     alt: image
 
-  - image: /img/works/thumbnail/4.jpg
+  - image: /img/works/thumbnail/mountain-khakis/3.png
     alt: image
 
-  - image: /img/works/thumbnail/5.jpg
+  - image: /img/works/thumbnail/mountain-khakis/4.png
     alt: image
 
-  - image: /img/works/thumbnail/3.jpg
+  - image: /img/works/thumbnail/mountain-khakis/5.png
+    alt: image
+  
+  - image: /img/works/thumbnail/mountain-khakis/6.png
     alt: image
 ---

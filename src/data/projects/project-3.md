@@ -1,9 +1,9 @@
 ---
 #preview
-title: Kemia Industrial Factory
-image: /img/works/thumbnail/3.jpg
-category: Web Templates
-category_slug: web-templates
+title: Schumacher
+image: /img/works/thumbnail/schumacher/1.png
+category: ECommerce
+category_slug: ecommerce
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: horizontal
 
@@ -11,43 +11,51 @@ masonrySize: horizontal
 description:
   title: Description
   content: "
-      <p>Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</p>
+      <p>Schumacher is a shop for fabrics, wallpaper and wallcoverings, trims, pillows, accessories, furniture. They required a responsive platform, which serves as an online store and a business card, supplemented by internal tools.</p>
   "
   button:
     label: Read More
-    link: https://www.behance.net/gallery/83236527/VIE
+    link: https://fschumacher.com
 
 details:
-  title: Project details
+  title: Project Details
   items:
-    - label: Order Date
-      value: 24.01.2024
+    - label: Role
+      value: Full Stack Developer
 
-    - label: Final Date
-      value: 12.02.2024
+    - label: Category
+      value: ECommerce
 
     - label: Status
       value: Completed
 
-    - label: Client
-      value: Envato Market
+    - label: Stacks
+      value: Next.js, MUI, Node, MySQL, Vercel
 
-    - label: Location
-      value: Ukraine, Lviv
-
-carousel:
-  - image: /img/works/thumbnail/1.jpg
+gallery:
+  title: Result
+  items:
+  - image: /img/works/thumbnail/schumacher/1.png
+    masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/7.jpg
+  - image: /img/works/thumbnail/schumacher/2.png
+    masonrySize: vertical
     alt: image
 
-  - image: /img/works/thumbnail/4.jpg
+  - image: /img/works/thumbnail/schumacher/3.png
+    masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/5.jpg
+  - image: /img/works/thumbnail/schumacher/4.png
+    masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/3.jpg
+  - image: /img/works/thumbnail/schumacher/5.png
+    masonrySize: vertical
+    alt: image
+
+  - image: /img/works/thumbnail/schumacher/6.png
+    masonrySize: horizontal
     alt: image
 ---

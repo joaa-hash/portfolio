@@ -1,9 +1,9 @@
 ---
 #preview
-title: Interior design studio
-image: /img/works/thumbnail/1.jpg
-category: Web Templates
-category_slug: web-templates
+title: Mariell
+image: /img/works/thumbnail/mariell/1.png
+category: ECommerce
+category_slug: ecommerce
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: horizontal
 
@@ -11,44 +11,38 @@ masonrySize: horizontal
 description:
   title: Description
   content: "
-      <p>Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</p>
+      <p>Mariell is an internationally recognized designer, manufacturer, and supplier. I was responsible for their frontend development to build a more user-friendly UI and increased customer satisfaction.</p>
   "
   button:
     label: Read More
-    link: https://www.behance.net/gallery/83236527/VIE
+    link: https://www.mariellonline.com
 
 details:
-  title: Project details
+  title: Project Details
   items:
-    - label: Order Date
-      value: 24.01.2024
+    - label: Role
+      value: Frontend Developer
 
-    - label: Final Date
-      value: 12.02.2024
+    - label: Category
+      value: ECommerce
 
     - label: Status
       value: Completed
 
-    - label: Client
-      value: Envato Market
-
-    - label: Location
-      value: Ukraine, Lviv
+    - label: Stacks
+      value: Vue.js, Vuetify, Stripe, MailChimp
 
 carousel:
-  - image: /img/works/thumbnail/1.jpg
+  - image: /img/works/thumbnail/mariell/1.png
     alt: image
 
-  - image: /img/works/thumbnail/7.jpg
+  - image: /img/works/thumbnail/mariell/2.png
     alt: image
 
-  - image: /img/works/thumbnail/4.jpg
+  - image: /img/works/thumbnail/mariell/3.png
     alt: image
 
-  - image: /img/works/thumbnail/5.jpg
-    alt: image
-
-  - image: /img/works/thumbnail/3.jpg
+  - image: /img/works/thumbnail/mariell/4.png
     alt: image
 
 ---

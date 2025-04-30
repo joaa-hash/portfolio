@@ -1,9 +1,9 @@
 ---
 #preview
-title: Dental Clinic
-image: /img/works/thumbnail/8.jpg
-category: Drawings
-category_slug: drawings
+title: EthereansOS
+image: /img/works/thumbnail/ethereans-os/1.png
+category: Blockchain
+category_slug: others
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: horizontal
 
@@ -11,42 +11,39 @@ masonrySize: horizontal
 description:
     title: Description
     content: "
-      <p>Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</p>
+      <p>At Ethos, a decentralized identity and reputation platform, I contributed to building a seamless user experience by developing responsive frontend components and integrating Web3 functionality. I utilized technologies such as Next.js, Tailwind CSS, Ethers.js, IPFS, and smart contracts to enable secure, user-friendly decentralized identity management.</p>
     "
     button:
       label: Read More
-      link: https://www.behance.net/gallery/83236527/VIE
+      link: https://ethos.eth.limo
 
 details:
-  title: Info Project
+  title: Project Details
   items:
-    - label: Order Date
-      value: 24.01.2024
+    - label: Role
+      value: Full Stack Developer
 
-    - label: Final Date
-      value: 12.02.2024
+    - label: Category
+      value: Blockchain Platform
 
     - label: Status
       value: Completed
 
-    - label: Client
-      value: Envato Market
-
-    - label: Location
-      value: Ukraine, Lviv
+    - label: Stacks
+      value: Next.js, Tailwind CSS, Ethers.js, IPFS
 
 gallery:
   title: Result
   items:
-  - image: /img/works/thumbnail/1.jpg
+  - image: /img/works/thumbnail/ethereans-os/1.png
     masonrySize: horizontal
     alt: image
 
-  - image: /img/works/thumbnail/2.jpg
+  - image: /img/works/thumbnail/ethereans-os/3.png
     masonrySize: vertical
     alt: image
 
-  - image: /img/works/thumbnail/3.jpg
+  - image: /img/works/thumbnail/ethereans-os/2.png
     masonrySize: horizontal
     alt: image
 ---
