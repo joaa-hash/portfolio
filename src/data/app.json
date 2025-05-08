@@ -11,6 +11,7 @@
   },
   "profile": {
     "avatar": "/img/face-1.jpg",
+    "showAvatar": false,
     "name": "Josue Acuna",
     "role": "Senior Software Engineer <br>Full Stack Developer",
     "info": [
@@ -137,11 +138,11 @@
   },
   "footer": {
     "copy": "© 2025 Josue Acuna. All rights reserved.",
-    "developer": "Developed by:&#160; <a href='https://github.com/joaa-hash' target='_blank'>Josue Acuna</a>"
+    "developer": "Developed by:&#160; <a href='https://github.com/joaa-hash/portfolio' target='_blank'>Josue Acuna</a>"
   },
   "social": [
     {
-      "link": "https://linkedin.com",
+      "link": "https://linkedin.com/in/josue-acuna",
       "icon": "fab fa-linkedin-in",
       "title": "Linkedin"
     },
@@ -151,7 +152,7 @@
       "title": "Github"
     },
     {
-      "link": "https://upwork.com",
+      "link": "https://www.upwork.com/freelancers/~0130d786f369f6c39e",
       "icon": "fab6 fa-upwork",
       "title": "Upwork"
     },

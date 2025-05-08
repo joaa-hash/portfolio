@@ -34,25 +34,10 @@ info bar
         border-radius: 50%;
         display: flex;
         justify-content: center;
+        align-items: center;
         outline: inherit;
-        transition: $tr-sm;
+        background-color: $text-color-3;
         z-index: 0;
-
-        & i {
-          background: $card-color-s-light;
-          width: 30px;
-          height: 30px;
-          text-align: center;
-          align-self: center;
-          font-weight: 700;
-          font-size: 12px;
-          line-height: 30px;
-          color: $text-color-1;
-          border-radius: 50%;
-          opacity: 0;
-          z-index: 1;
-          transition: $tr-md;
-        }
 
         & img {
           position: absolute;
@@ -63,19 +48,13 @@ info bar
           z-index: 0;
         }
 
-        &:hover {
-          opacity: 1;
-          transition: $tr-sm;
-          outline: inherit;
+        & .ja-avatar-placeholder-text {
+          transition: $tr-md;
+          letter-spacing: 0;
+        }
 
-          & i {
-            opacity: 0.7;
-
-            &:hover {
-              opacity: 1;
-              transform: scale(1.07);
-            }
-          }
+        &:hover .ja-avatar-placeholder-text {
+          color: $main-color;
         }
       }
 
