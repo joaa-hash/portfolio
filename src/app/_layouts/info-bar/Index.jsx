@@ -46,8 +46,15 @@ const InfoBarModule = () => {
             {/* avatar */}
             <div className='ja-avatar'>
               <Link href='/' className='ja-avatar-curtain'>
-                <img src={AppData.profile.avatar} alt='avatar' />
-                {/* <i className='fas fa-expand'></i> */}
+                {AppData.profile.showAvatar ? (
+                  <img src={AppData.profile.avatar} alt='avatar' />
+                ) : (
+                  <>
+                    <h2 className='ja-avatar-placeholder-text'>
+                      J<span className='mr-1'></span>A
+                    </h2>
+                  </>
+                )}
               </Link>
               {/* available */}
               <div className='ja-lamp-light'>
